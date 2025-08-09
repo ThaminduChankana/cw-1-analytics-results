@@ -1,0 +1,46 @@
+{
+  "project_title": "Real OCT Image Big Data Analytics",
+  "dataset_source": "Kaggle retinal-oct-c8 dataset",
+  "implementation_type": "real_image_processing",
+  "total_real_images": 8000,
+  "normal_images": 1000,
+  "disease_images": 7000,
+  "diseases_analyzed": [
+    "DME",
+    "DRUSEN",
+    "DR",
+    "MH",
+    "AMD",
+    "CNV",
+    "CSR"
+  ],
+  "processing_technologies": [
+    "Apache Spark (simulated)",
+    "Apache Hive (simulated)",
+    "OpenCV",
+    "Pandas"
+  ],
+  "analytics_completed": [
+    "real_disease_distribution",
+    "quality_analysis",
+    "severity_analysis",
+    "processing_performance",
+    "feature_categories"
+  ],
+  "key_findings": {
+    "total_diseases": 7,
+    "normal_vs_disease_ratio": 0.14285714285714285,
+    "avg_quality_score_normal": 0.23952052561162623,
+    "avg_quality_score_disease": 0.19497703211760745,
+    "high_risk_cases": 2434,
+    "processing_rate": "156.30 images/second"
+  },
+  "deliverables": {
+    "raw_features": "raw-images/real_oct_features.jsonl",
+    "processed_data": "processed-data/master_real_dataset.csv",
+    "analytics_results": "hive-analytics/real_*.csv",
+    "visualizations": "results/real_oct_analytics_dashboard.png",
+    "model_metrics": "models/real_model_metrics.json"
+  },
+  "completion_timestamp": "2025-08-03T08:43:27.225942"
+}

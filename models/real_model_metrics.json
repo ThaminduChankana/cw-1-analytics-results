@@ -1,0 +1,32 @@
+{
+  "model_name": "oct_classifier",
+  "dataset_source": "kaggle_retinal_oct_c8",
+  "classification_type": "binary_and_multiclass",
+  "total_images_trained": 8000,
+  "normal_samples": 1000,
+  "disease_samples": 7000,
+  "actual_disease_classes": 7,
+  "disease_types": [
+    "DME",
+    "DRUSEN",
+    "DR",
+    "MH",
+    "AMD",
+    "CNV",
+    "CSR"
+  ],
+  "feature_extraction_accuracy": 100.0,
+  "avg_image_quality_normal": 0.23952052561162623,
+  "avg_image_quality_disease": 0.19497703211760745,
+  "severity_scoring_capability": true,
+  "brightness_analysis_range": [
+    0.056001925000957416,
+    0.6306784700397295
+  ],
+  "texture_analysis_range": [
+    6.2431089988861075,
+    21377.17846195317
+  ],
+  "real_data_processing_rate": 156.30236718690142,
+  "model_timestamp": "2025-08-03T08:43:27.050309"
+}

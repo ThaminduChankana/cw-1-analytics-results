@@ -1,0 +1,21 @@
+{
+  "analysis_type": "real_oct_image_analytics",
+  "total_images_analyzed": 8000,
+  "disease_types_found": [
+    "NORMAL",
+    "DME",
+    "AMD",
+    "DRUSEN",
+    "DR",
+    "MH",
+    "CNV",
+    "CSR"
+  ],
+  "queries_executed": 5,
+  "high_risk_cases": 3267,
+  "avg_image_quality": 0.2005375,
+  "processing_workers": 4,
+  "analysis_timestamp": "2025-08-03T08:43:21.711142",
+  "processing_mode": "athena",
+  "comprehensive_analysis": true
+}

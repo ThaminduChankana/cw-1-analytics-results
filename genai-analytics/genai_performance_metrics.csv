@@ -1,0 +1,4 @@
+model_name,total_calls,avg_response_time_ms,success_rate_percent,error_count
+claude_v2,0,0.0,0.0,0
+claude_instant,10,2402.420949935913,100.0,0
+titan_text,10,18215.9912109375,100.0,0

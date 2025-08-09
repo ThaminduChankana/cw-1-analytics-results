@@ -1,0 +1,16 @@
+{
+  "upload_timestamp": "2025-08-03T08:47:54.666796",
+  "total_files": 4,
+  "successful_uploads": 4,
+  "failed_uploads": 0,
+  "upload_success_rate": 100.0,
+  "bucket_name": "retinal-bigdata-free-thaminduiit",
+  "s3_folder": "genai-analytics",
+  "uploaded_files": [
+    "genai-analytics/genai_analysis_summary.csv",
+    "genai-analytics/genai_performance_metrics.csv",
+    "genai-analytics/genai_summary_report.json",
+    "genai-analytics/genai_detailed_results.json"
+  ],
+  "failed_files": []
+}

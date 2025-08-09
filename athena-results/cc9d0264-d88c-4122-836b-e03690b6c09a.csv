@@ -1,0 +1,5 @@
+"risk_category","case_count","avg_brightness","avg_texture","diseases_in_category"
+"Critical Risk","611","0.1747","1754.07","NORMAL,CNV,DME,DRUSEN"
+"High Risk","2656","0.1865","1366.99","DME,NORMAL,MH,DRUSEN,CNV,CSR,AMD"
+"Medium Risk","3842","0.2008","515.27","DR,DRUSEN,NORMAL,AMD,CNV,CSR,DME,MH"
+"Low Risk","891","0.339","209.79","DME,NORMAL,AMD,CNV,DRUSEN"

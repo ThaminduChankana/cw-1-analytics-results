@@ -1,0 +1,49 @@
+{
+  "dataset_type": "real_oct_images",
+  "total_images": 8000,
+  "disease_types": [
+    "DME",
+    "NORMAL",
+    "DRUSEN",
+    "DR",
+    "MH",
+    "AMD",
+    "CNV",
+    "CSR"
+  ],
+  "disease_distribution": {
+    "DME": 1000,
+    "NORMAL": 1000,
+    "DRUSEN": 1000,
+    "DR": 1000,
+    "MH": 1000,
+    "AMD": 1000,
+    "CNV": 1000,
+    "CSR": 1000
+  },
+  "feature_columns": [
+    "filename",
+    "disease_type",
+    "file_size",
+    "image_width",
+    "image_height",
+    "channels",
+    "mean_intensity",
+    "std_intensity",
+    "min_intensity",
+    "max_intensity",
+    "contrast",
+    "brightness",
+    "texture_complexity",
+    "skewness",
+    "kurtosis",
+    "edge_density",
+    "processing_timestamp",
+    "feature_extraction_method",
+    "brightness_category",
+    "contrast_category",
+    "quality_score"
+  ],
+  "processing_date": "2025-08-03T08:42:24.513111",
+  "source": "kaggle_retinal_oct_c8"
+}

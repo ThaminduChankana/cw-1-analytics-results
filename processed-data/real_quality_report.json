@@ -1,0 +1,65 @@
+{
+  "dataset_type": "real_oct_images",
+  "total_images": 8000,
+  "normal_samples": 1000,
+  "disease_samples": 7000,
+  "disease_distribution": {
+    "DME": 1000,
+    "DRUSEN": 1000,
+    "DR": 1000,
+    "MH": 1000,
+    "AMD": 1000,
+    "CNV": 1000,
+    "CSR": 1000
+  },
+  "normal_vs_disease_ratio": 0.14285714285714285,
+  "normal_stats": {
+    "avg_quality_score": 0.23952052561162623,
+    "avg_severity_score": 5.334
+  },
+  "disease_stats": {
+    "avg_quality_score": 0.19497703211760745,
+    "avg_severity_score": 3.922285714285714,
+    "diseases_identified": [
+      "DME",
+      "DRUSEN",
+      "DR",
+      "MH",
+      "AMD",
+      "CNV",
+      "CSR"
+    ]
+  },
+  "missing_values": {
+    "filename": 0,
+    "disease_type": 0,
+    "file_size": 0,
+    "image_width": 0,
+    "image_height": 0,
+    "channels": 0,
+    "mean_intensity": 0,
+    "std_intensity": 0,
+    "min_intensity": 0,
+    "max_intensity": 0,
+    "contrast": 0,
+    "brightness": 0,
+    "texture_complexity": 0,
+    "skewness": 0,
+    "kurtosis": 0,
+    "edge_density": 0,
+    "processing_timestamp": 0,
+    "feature_extraction_method": 0,
+    "brightness_category": 0,
+    "contrast_category": 0,
+    "quality_score": 0,
+    "texture_normalized": 0,
+    "severity_score": 0,
+    "brightness_deviation": 0,
+    "processed_by": 0,
+    "partition_id": 0,
+    "is_normal": 0,
+    "has_disease": 0,
+    "actual_disease": 1000
+  },
+  "processing_timestamp": "2025-08-03T08:43:27.014968"
+}

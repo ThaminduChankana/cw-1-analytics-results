@@ -1,0 +1,104 @@
+{
+  "report_metadata": {
+    "report_type": "genai_analytics",
+    "session_start": "2025-08-03T08:43:27.985299",
+    "session_end": "2025-08-03T08:47:54.454855",
+    "session_duration_seconds": 266.469281,
+    "report_generated": "2025-08-03T08:47:54.454859",
+    "simulation_mode": false
+  },
+  "analysis_performance": {
+    "total_analyses_completed": 10,
+    "successful_analyses": 10,
+    "failed_analyses": 0,
+    "normal_cases_analyzed": 1,
+    "disease_cases_analyzed": 9,
+    "analysis_success_rate_percent": 100.0,
+    "average_confidence_score": 79.83333333333333,
+    "average_processing_time_ms": 26646.28186225891,
+    "throughput_analyses_per_minute": 2.2516666752292545
+  },
+  "api_performance": {
+    "total_api_calls_made": 30,
+    "successful_api_calls": 30,
+    "failed_api_calls": 0,
+    "api_success_rate_percent": 100.0,
+    "average_api_response_time_ms": 8881.05218410492,
+    "api_calls_per_analysis": 3.0,
+    "rate_limits_hit": 0,
+    "cache_hit_rate_percent": 0.0
+  },
+  "cost_analysis": {
+    "total_estimated_cost_usd": 0.03870066666666666,
+    "cost_per_analysis_usd": 0.003870066666666666,
+    "total_input_tokens": 2555,
+    "total_output_tokens": 8000,
+    "tokens_per_analysis": 1055.5,
+    "projected_monthly_cost_usd": 37.64491262315523
+  },
+  "model_performance": {
+    "claude_instant": {
+      "total_calls": 10,
+      "avg_response_time_ms": 2402.420949935913,
+      "success_rate_percent": 100.0,
+      "error_count": 0
+    },
+    "titan_text": {
+      "total_calls": 10,
+      "avg_response_time_ms": 18215.9912109375,
+      "success_rate_percent": 100.0,
+      "error_count": 0
+    }
+  },
+  "quality_metrics": {
+    "validation_pass_rate_percent": 100.0,
+    "average_consistency_score": 76.0,
+    "average_medical_accuracy_score": 82.0,
+    "average_clinical_appropriateness_score": 81.5
+  },
+  "clinical_impact": {
+    "conditions_analyzed": [
+      "NORMAL",
+      "CNV",
+      "DME",
+      "MH",
+      "CSR",
+      "AMD"
+    ],
+    "condition_distribution": {
+      "NORMAL": 1,
+      "CNV": 1,
+      "DME": 1,
+      "MH": 1,
+      "CSR": 1,
+      "AMD": 5
+    },
+    "normal_vs_disease_ratio": 0.1111111111111111,
+    "critical_cases_identified": 0,
+    "immediate_interventions_recommended": 9,
+    "specialist_referrals_recommended": 9
+  },
+  "error_analysis": {
+    "total_errors": 0,
+    "error_types": {},
+    "error_rate_percent": 0.0
+  },
+  "readiness_assessment": {
+    "overall_readiness_score": 93.00916546011135,
+    "scalability_assessment": "LIMITED - Performance optimization needed for scale",
+    "reliability_assessment": "EXCELLENT - 100.0% success rate (deployment ready)",
+    "cost_efficiency_assessment": "EXCELLENT - $0.0039 per analysis (highly cost-effective)",
+    "recommendations_for_deployment": [
+      "Refine prompts and add more clinical context for higher confidence scores",
+      "Consider fine-tuning models on domain-specific medical data",
+      "Implement token usage monitoring and cost alerts",
+      "Consider prompt optimization to reduce token usage",
+      "Improve caching strategy to reduce API calls",
+      "Implement comprehensive monitoring and alerting",
+      "Set up automated performance testing and benchmarking",
+      "Create fallback mechanisms for API failures",
+      "Establish clinical validation protocols with medical experts",
+      "Implement A/B testing framework for prompt optimization"
+    ]
+  }
+}

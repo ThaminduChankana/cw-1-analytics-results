@@ -1,0 +1,24 @@
+{
+  "job_id": "real_spark_job_20250803_084238",
+  "dataset_type": "real_oct_images",
+  "total_images_processed": 8000,
+  "partitions_created": 4,
+  "total_processing_time": 51.18284606933594,
+  "disease_types_processed": [
+    "DME",
+    "NORMAL",
+    "DRUSEN",
+    "DR",
+    "MH",
+    "AMD",
+    "CNV",
+    "CSR"
+  ],
+  "features_engineered": [
+    "texture_normalized",
+    "severity_score",
+    "brightness_deviation"
+  ],
+  "avg_quality_score": 0.2005449688043598,
+  "spark_version": "3.4.1"
+}

@@ -42,8 +42,9 @@
     "feature_extraction_method",
     "brightness_category",
     "contrast_category",
-    "quality_score"
+    "quality_score",
+    "severity_score"
   ],
-  "processing_date": "2025-08-03T08:42:24.513111",
+  "processing_date": "2025-08-13T03:05:33.856617",
   "source": "kaggle_retinal_oct_c8"
 }

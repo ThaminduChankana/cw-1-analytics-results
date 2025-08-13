@@ -1,6 +1,6 @@
 {
   "analysis_metadata": {
-    "analysis_date": "2025-08-03T08:48:07.549323",
+    "analysis_date": "2025-08-13T03:12:07.430831",
     "analysis_type": "comprehensive_big_data_evaluation",
     "coursework_tasks": [
       "Task 4: Analysis and Results",
@@ -20,16 +20,16 @@
     "normal_samples": 1000,
     "disease_samples": 7000,
     "disease_types_identified": 7,
-    "spark_processing_time": 51.18284606933594,
-    "images_per_second": 156.30236718690142,
+    "spark_processing_time": 86.17836380004883,
+    "images_per_second": 92.83072510591651,
     "partitions_created": 4,
-    "average_image_quality": 0.19497703211760745,
+    "average_image_quality": 0.22201388952365564,
     "feature_extraction_accuracy": 100.0,
-    "model_performance_score": 0.19497703211760745,
+    "model_performance_score": 0.22201388952365564,
     "total_directories_populated": 6,
     "files_uploaded": 31,
     "analytics_queries_executed": 5,
-    "high_risk_cases_identified": 3267,
+    "high_risk_cases_identified": 5647,
     "genai_analyses_completed": 0,
     "genai_success_rate": 0,
     "genai_avg_confidence": 0
@@ -86,16 +86,16 @@
     "normal_samples": 1000,
     "disease_samples": 7000,
     "disease_types_identified": 7,
-    "spark_processing_time": 51.18284606933594,
-    "images_per_second": 156.30236718690142,
+    "spark_processing_time": 86.17836380004883,
+    "images_per_second": 92.83072510591651,
     "partitions_created": 4,
-    "average_image_quality": 0.19497703211760745,
+    "average_image_quality": 0.22201388952365564,
     "feature_extraction_accuracy": 100.0,
-    "model_performance_score": 0.19497703211760745,
+    "model_performance_score": 0.22201388952365564,
     "total_directories_populated": 6,
     "files_uploaded": 31,
     "analytics_queries_executed": 5,
-    "high_risk_cases_identified": 3267,
+    "high_risk_cases_identified": 5647,
     "genai_analyses_completed": 0,
     "genai_success_rate": 0,
     "genai_avg_confidence": 0
@@ -176,11 +176,11 @@
     "parallel_efficiency": 83
   },
   "key_findings": {
-    "processing_rate": "156.30 images/second",
-    "quality_score": "0.195",
+    "processing_rate": "92.83 images/second",
+    "quality_score": "0.222",
     "genai_success_rate": "0.0%",
     "roi_percentage": "777.8%",
-    "scalability_projection": "13504525 images/day"
+    "scalability_projection": "8020575 images/day"
   },
   "recommendations": {
     "short_term": [

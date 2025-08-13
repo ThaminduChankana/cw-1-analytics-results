@@ -1,103 +1,103 @@
 {
   "session_metadata": {
-    "timestamp": "20250803_084754",
+    "timestamp": "20250813_031145",
     "total_analyses": 10,
-    "session_duration": "0:04:26.470760",
+    "session_duration": "0:04:49.749676",
     "simulation_mode": false
   },
   "results": [
     {
       "analysis_metadata": {
-        "analysis_id": "GENAI-001",
-        "timestamp": "2025-08-03T08:43:57.305413",
-        "filename": "train_amd_train_2669.jpg",
-        "condition_type": "AMD",
+        "analysis_id": "GENAI-004",
+        "timestamp": "2025-08-13T03:07:40.592018",
+        "filename": "train_csr_train_1075.jpg",
+        "condition_type": "CSR",
         "is_normal": false,
-        "total_processing_time_ms": 29315.99235534668,
+        "total_processing_time_ms": 44424.2959022522,
         "api_calls_made": 4,
         "version": "GenAI-v1.0",
         "simulation_mode": false
       },
       "medical_context": {
         "patient_data": {
-          "image_id": "train_amd_train_2669.jpg",
+          "image_id": "train_csr_train_1075.jpg",
           "modality": "Optical Coherence Tomography (OCT)",
-          "acquisition_date": "2025-08-03",
+          "acquisition_date": "2025-08-13",
           "clinical_indication": "Retinal pathology assessment"
         },
         "image_features": {
-          "brightness": 0.3205130131740196,
-          "contrast": 0.31006620363441806,
-          "texture_complexity": 21.185958864864343,
-          "quality_score": 0.14274354226275313,
-          "severity_score": 2.0
+          "brightness": 0.1476882614379085,
+          "contrast": 0.9696141565808339,
+          "texture_complexity": 1151.5641854711398,
+          "quality_score": 0.24521432584406044,
+          "severity_score": 8.0
         },
         "statistical_context": {
-          "brightness_percentile": 50.820351161476765,
-          "texture_complexity_percentile": 0.09910549655826113,
-          "quality_compared_to_average": 0.7117782266679827,
-          "severity_compared_to_dataset": 0.2857142857142857
+          "brightness_percentile": 22.08368241737169,
+          "texture_complexity_percentile": 7.045316456758115,
+          "quality_compared_to_average": 1.0705240830618705,
+          "severity_compared_to_dataset": 0.8
         },
         "clinical_classification": {
-          "condition": "AMD",
+          "condition": "CSR",
           "is_normal": false,
-          "urgency_level": "LOW - Standard follow-up appropriate",
-          "complexity_level": "MILDLY COMPLEX - Standard clinical assessment",
+          "urgency_level": "CRITICAL - Immediate intervention required",
+          "complexity_level": "HIGHLY COMPLEX - Multidisciplinary consultation recommended",
           "quality_adequacy": "POOR - Not adequate for reliable diagnosis"
         },
         "dataset_context": {
           "total_images_in_dataset": 8000,
           "condition_prevalence": 0.125,
-          "average_severity_for_condition": 2.167,
+          "average_severity_for_condition": 4.714,
           "is_normal_case": false
         }
       },
       "rapid_assessment": {
         "assessment_type": "rapid_clinical_assessment",
-        "processing_time_ms": 2456.648826599121,
+        "processing_time_ms": 2496.6537952423096,
         "primary_findings": "Analysis completed",
         "immediate_concerns": [],
-        "preliminary_diagnosis": "AMD",
-        "urgency_assessment": "LOW - Standard follow-up appropriate",
+        "preliminary_diagnosis": "CSR",
+        "urgency_assessment": "CRITICAL - Immediate intervention required",
         "next_steps": [
           "Clinical correlation recommended"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-instant-v1",
-          "response_time_ms": 2456.5834999084473,
-          "tokens_used": 111,
+          "response_time_ms": 2496.579170227051,
+          "tokens_used": 110,
           "api_success": true
         }
       },
       "comprehensive_analysis": {
         "analysis_type": "comprehensive_medical_analysis",
-        "processing_time_ms": 5292.552709579468,
-        "detailed_findings": "The OCT imaging reveals the presence of drusen deposits and retinal pigment epithelial (RPE) changes consistent with age-related macular degeneration (AMD). There is no evidence of subretinal fluid, intraretinal edema, or geographic atrophy. The foveal contour appears relatively preserved.",
-        "pathophysiology": "AMD is a progressive, degenerative condition affecting the macula, the central part of the retina responsible for sharp, detailed vision. In this case, the presence of drusen, which are extracellular deposits of lipids and proteins, and RPE changes indicate an early stage of the dry (non-neovascular) form of AMD. These changes can lead to gradual photoreceptor dysfunction and vision loss over time.",
+        "processing_time_ms": 6205.833435058594,
+        "detailed_findings": "The OCT imaging reveals a focal area of neurosensory retinal detachment in the macula, with associated subretinal fluid accumulation. There is also evidence of retinal pigment epithelium (RPE) irregularity and disruption, consistent with the characteristic findings of central serous chorioretinopathy.",
+        "pathophysiology": "Central serous chorioretinopathy is a condition characterized by the development of a localized serous detachment of the neurosensory retina, typically in the macula. This is believed to be caused by a dysfunction of the RPE, leading to the leakage of fluid from the choroidal vasculature into the subretinal space.",
         "differential_diagnosis": [
-          "- Diabetic macular edema"
+          "The differential diagnosis for this presentation includes other causes of subretinal fluid accumulation",
+          "such as neovascular age-related macular degeneration",
+          "diabetic macular edema",
+          "and idiopathic central serous chorioretinopathy."
         ],
-        "risk_stratification": "The patient's AMD severity score of 2.0/10 and severity percentile of 28.6% indicate a relatively mild stage of the disease. However, the condition is progressive, and close monitoring is essential to detect any progression or development of the neovascular (wet) form of AMD, which requires prompt treatment.",
-        "prognosis": "With appropriate monitoring and management, the prognosis for this patient with early-stage dry AMD is generally favorable. However, the condition may gradually worsen over time, and the patient should be advised of the potential for vision loss if the disease progresses.",
+        "risk_stratification": "The severity score of 8.0/10 and the condition prevalence of 12.5% indicate that this case represents a critical situation requiring immediate intervention. The severity percentile of 80.0% further underscores the urgency of the situation.",
+        "prognosis": "Without prompt and appropriate treatment, central serous chorioretinopathy can lead to persistent visual impairment and potentially irreversible damage to the retina and RPE. However, with timely intervention, the prognosis is generally favorable, with the majority of patients experiencing resolution of the subretinal fluid and improvement in visual acuity.",
         "monitoring_recommendations": [
-          "- Comprehensive eye examination",
-          "including dilated fundus evaluation",
-          "every 6-12 months"
+          "Regular follow-up"
         ],
         "clinical_correlation_needs": [
-          "- Assess for any relevant medical history",
-          "such as cardiovascular disease or family history of AMD"
+          "Clinical history"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-v2",
-          "response_time_ms": 5292.5097942352295,
-          "tokens_used": 484,
+          "response_time_ms": 6205.776691436768,
+          "tokens_used": 560,
           "api_success": true
         }
       },
       "treatment_recommendations": {
         "recommendation_type": "comprehensive_treatment_plan",
-        "processing_time_ms": 21563.289403915405,
+        "processing_time_ms": 35718.8196182251,
         "immediate_interventions": [
           "Clinical evaluation recommended"
         ],
@@ -119,14 +119,14 @@
         ],
         "api_metadata": {
           "model_used": "amazon.titan-text-express-v1",
-          "response_time_ms": 21563.249826431274,
-          "tokens_used": 548,
+          "response_time_ms": 35718.76931190491,
+          "tokens_used": 847,
           "api_success": true
         }
       },
       "quality_validation": {
         "validation_type": "genai_quality_assurance",
-        "processing_time_ms": 0.021457672119140625,
+        "processing_time_ms": 0.03337860107421875,
         "consistency_score": 75.0,
         "medical_accuracy_score": 80.0,
         "clinical_appropriateness_score": 85.0,
@@ -143,9 +143,9 @@
       },
       "performance_metrics": {
         "api_response_times": [
-          2456.5834999084473,
-          5292.5097942352295,
-          21563.249826431274
+          2496.579170227051,
+          6205.776691436768,
+          35718.76931190491
         ],
         "token_usage_estimate": {
           "input_tokens": 256,
@@ -159,96 +159,96 @@
     },
     {
       "analysis_metadata": {
-        "analysis_id": "GENAI-007",
-        "timestamp": "2025-08-03T08:44:13.074195",
-        "filename": "train_normal_train_2140.jpg",
-        "condition_type": "NORMAL",
-        "is_normal": true,
-        "total_processing_time_ms": 15768.650531768799,
+        "analysis_id": "GENAI-009",
+        "timestamp": "2025-08-13T03:08:08.874714",
+        "filename": "train_drusen_train_3220.jpg",
+        "condition_type": "DRUSEN",
+        "is_normal": false,
+        "total_processing_time_ms": 28282.50551223755,
         "api_calls_made": 4,
         "version": "GenAI-v1.0",
         "simulation_mode": false
       },
       "medical_context": {
         "patient_data": {
-          "image_id": "train_normal_train_2140.jpg",
+          "image_id": "train_drusen_train_3220.jpg",
           "modality": "Optical Coherence Tomography (OCT)",
-          "acquisition_date": "2025-08-03",
-          "clinical_indication": "Routine retinal assessment"
+          "acquisition_date": "2025-08-13",
+          "clinical_indication": "Retinal pathology assessment"
         },
         "image_features": {
-          "brightness": 0.5223039370107923,
-          "contrast": 0.7333183880215093,
-          "texture_complexity": 790.7101996396511,
-          "quality_score": 0.28073530622705484,
-          "severity_score": 0
+          "brightness": 0.15495568407554555,
+          "contrast": 1.0818877849525632,
+          "texture_complexity": 461.1504863613476,
+          "quality_score": 0.2504990045116734,
+          "severity_score": 7.0
         },
         "statistical_context": {
-          "brightness_percentile": 82.81619903369933,
-          "texture_complexity_percentile": 3.6988520306688137,
-          "quality_compared_to_average": 1.3998621251921017,
-          "severity_compared_to_dataset": 0
+          "brightness_percentile": 23.17037307213215,
+          "texture_complexity_percentile": 2.821337404891909,
+          "quality_compared_to_average": 1.0935952301714431,
+          "severity_compared_to_dataset": 0.7
         },
         "clinical_classification": {
-          "condition": "NORMAL",
-          "is_normal": true,
-          "urgency_level": "ROUTINE - Normal findings, standard follow-up",
-          "complexity_level": "STRAIGHTFORWARD - Normal findings",
+          "condition": "DRUSEN",
+          "is_normal": false,
+          "urgency_level": "CRITICAL - Immediate intervention required",
+          "complexity_level": "HIGHLY COMPLEX - Multidisciplinary consultation recommended",
           "quality_adequacy": "POOR - Not adequate for reliable diagnosis"
         },
         "dataset_context": {
           "total_images_in_dataset": 8000,
           "condition_prevalence": 0.125,
-          "average_severity_for_condition": 1.999,
-          "is_normal_case": true
+          "average_severity_for_condition": 7.482,
+          "is_normal_case": false
         }
       },
       "rapid_assessment": {
         "assessment_type": "rapid_clinical_assessment",
-        "processing_time_ms": 2142.9269313812256,
+        "processing_time_ms": 2628.204584121704,
         "primary_findings": "Analysis completed",
         "immediate_concerns": [],
-        "preliminary_diagnosis": "NORMAL",
-        "urgency_assessment": "ROUTINE - Normal findings, standard follow-up",
+        "preliminary_diagnosis": "DRUSEN",
+        "urgency_assessment": "CRITICAL - Immediate intervention required",
         "next_steps": [
           "Clinical correlation recommended"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-instant-v1",
-          "response_time_ms": 2142.8592205047607,
-          "tokens_used": 88,
+          "response_time_ms": 2628.1354427337646,
+          "tokens_used": 120,
           "api_success": true
         }
       },
       "comprehensive_analysis": {
         "analysis_type": "comprehensive_medical_analysis",
-        "processing_time_ms": 6103.1622886657715,
-        "detailed_findings": "The OCT imaging analysis reveals a normal retinal architecture with well-defined layers and no structural abnormalities. The foveal contour is intact, and the optic nerve head appears healthy with a normal cup-to-disc ratio. The retinal nerve fiber layer (RNFL) thickness is within the normal range, and the macular thickness is also normal.",
-        "pathophysiology": "In this case, the normal OCT findings indicate a healthy retina with proper anatomical and functional integrity. The retinal layers, including the photoreceptors, retinal pigment epithelium, and the neurosensory retina, are all present and well-organized, allowing for optimal visual function.",
+        "processing_time_ms": 5921.285390853882,
+        "detailed_findings": "The OCT imaging reveals the presence of numerous, confluent drusen deposits in the macula. The drusen appear to be large, soft, and irregularly shaped, indicating a more advanced stage of the condition. There is also evidence of mild retinal pigment epithelial (RPE) changes and early signs of atrophy in the central macula.",
+        "pathophysiology": "Drusen are extracellular deposits of lipid and protein that accumulate between the retinal pigment epithelium (RPE) and Bruch's membrane. The formation of drusen is associated with aging and is considered an early sign of age-related macular degeneration (AMD). The presence of large, soft drusen indicates an increased risk of progression to advanced AMD, including geographic atrophy or choroidal neovascularization.",
         "differential_diagnosis": [
-          "Given the normal OCT findings",
-          "the differential diagnosis is limited. Potential conditions that could present with similar findings include:"
+          "- Age-related macular degeneration (AMD)"
         ],
-        "risk_stratification": "Based on the normal OCT findings and the provided statistical context, the patient's risk of developing a retinal condition is low. The condition prevalence of 12.5% and the patient's severity percentile of 0.0% indicate a very low likelihood of any significant retinal pathology.",
-        "prognosis": "The patient's prognosis is excellent, as the normal OCT findings suggest a healthy retina with no signs of disease or structural abnormalities. Barring the development of any new risk factors or underlying conditions, the patient's visual function is expected to remain stable and uncompromised.",
+        "risk_stratification": "Based on the severity score of 7.0/10 and the patient's condition being in the 70th percentile for severity, this case represents a critical situation requiring immediate intervention. The presence of large, confluent drusen and early signs of RPE changes indicate a high risk of progression to advanced AMD, which can lead to significant vision loss if left untreated.",
+        "prognosis": "Without prompt and appropriate management, the patient is at a high risk of developing advanced AMD, which can result in central vision loss and a significant impact on their quality of life. Early intervention and close monitoring are crucial to prevent or delay the progression of the disease.",
         "monitoring_recommendations": [
-          "Given the normal findings",
-          "the recommended monitoring plan includes:"
+          "- Comprehensive eye examination",
+          "including dilated fundus examination and OCT imaging",
+          "every 6 months"
         ],
         "clinical_correlation_needs": [
-          "To provide a complete assessment",
-          "the following clinical information would be helpful:"
+          "- Detailed medical history",
+          "including any family history of macular degeneration or other retinal diseases"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-v2",
-          "response_time_ms": 6103.116273880005,
-          "tokens_used": 505,
+          "response_time_ms": 5921.232223510742,
+          "tokens_used": 557,
           "api_success": true
         }
       },
       "treatment_recommendations": {
         "recommendation_type": "comprehensive_treatment_plan",
-        "processing_time_ms": 7519.42777633667,
+        "processing_time_ms": 19729.769945144653,
         "immediate_interventions": [
           "Clinical evaluation recommended"
         ],
@@ -270,14 +270,467 @@
         ],
         "api_metadata": {
           "model_used": "amazon.titan-text-express-v1",
-          "response_time_ms": 7519.391298294067,
-          "tokens_used": 169,
+          "response_time_ms": 19729.719400405884,
+          "tokens_used": 470,
           "api_success": true
         }
       },
       "quality_validation": {
         "validation_type": "genai_quality_assurance",
-        "processing_time_ms": 0.021219253540039062,
+        "processing_time_ms": 0.03504753112792969,
+        "consistency_score": 75.0,
+        "medical_accuracy_score": 95.0,
+        "clinical_appropriateness_score": 85.0,
+        "overall_confidence": 85.0,
+        "quality_flags": [
+          "Missing immediate concerns in rapid assessment"
+        ],
+        "validation_passed": true,
+        "recommendations_for_improvement": [
+          "Quality meets standards",
+          "Continue monitoring for edge cases",
+          "Consider periodic prompt optimization"
+        ]
+      },
+      "performance_metrics": {
+        "api_response_times": [
+          35718.76931190491,
+          2628.1354427337646,
+          5921.232223510742,
+          19729.719400405884
+        ],
+        "token_usage_estimate": {
+          "input_tokens": 258,
+          "output_tokens": 800,
+          "total_tokens": 1058
+        },
+        "cost_estimate": 0.0014093333333333334,
+        "confidence_score": 85.0,
+        "cache_efficiency": 0.0
+      }
+    },
+    {
+      "analysis_metadata": {
+        "analysis_id": "GENAI-005",
+        "timestamp": "2025-08-13T03:08:41.499616",
+        "filename": "val_cnv_val_1275.jpg",
+        "condition_type": "CNV",
+        "is_normal": false,
+        "total_processing_time_ms": 32624.736547470093,
+        "api_calls_made": 4,
+        "version": "GenAI-v1.0",
+        "simulation_mode": false
+      },
+      "medical_context": {
+        "patient_data": {
+          "image_id": "val_cnv_val_1275.jpg",
+          "modality": "Optical Coherence Tomography (OCT)",
+          "acquisition_date": "2025-08-13",
+          "clinical_indication": "Retinal pathology assessment"
+        },
+        "image_features": {
+          "brightness": 0.3913695130900142,
+          "contrast": 0.874851860063595,
+          "texture_complexity": 1165.086542441852,
+          "quality_score": 0.3017687144831354,
+          "severity_score": 8.0
+        },
+        "statistical_context": {
+          "brightness_percentile": 58.52110351068715,
+          "texture_complexity_percentile": 7.128046785906844,
+          "quality_compared_to_average": 1.3174217095874574,
+          "severity_compared_to_dataset": 0.8
+        },
+        "clinical_classification": {
+          "condition": "CNV",
+          "is_normal": false,
+          "urgency_level": "CRITICAL - Immediate intervention required",
+          "complexity_level": "HIGHLY COMPLEX - Multidisciplinary consultation recommended",
+          "quality_adequacy": "POOR - Not adequate for reliable diagnosis"
+        },
+        "dataset_context": {
+          "total_images_in_dataset": 8000,
+          "condition_prevalence": 0.125,
+          "average_severity_for_condition": 9.15,
+          "is_normal_case": false
+        }
+      },
+      "rapid_assessment": {
+        "assessment_type": "rapid_clinical_assessment",
+        "processing_time_ms": 2522.763967514038,
+        "primary_findings": "Analysis completed",
+        "immediate_concerns": [],
+        "preliminary_diagnosis": "CNV",
+        "urgency_assessment": "CRITICAL - Immediate intervention required",
+        "next_steps": [
+          "Clinical correlation recommended"
+        ],
+        "api_metadata": {
+          "model_used": "anthropic.claude-instant-v1",
+          "response_time_ms": 2522.693157196045,
+          "tokens_used": 110,
+          "api_success": true
+        }
+      },
+      "comprehensive_analysis": {
+        "analysis_type": "comprehensive_medical_analysis",
+        "processing_time_ms": 4764.853000640869,
+        "detailed_findings": "The OCT imaging reveals the presence of choroidal neovascularization (CNV) with a well-defined, active lesion involving the foveal center. There is significant intraretinal and subretinal fluid accumulation, indicating an advanced stage of the condition.",
+        "pathophysiology": "CNV is characterized by the abnormal growth of blood vessels from the choroid layer into the subretinal space, disrupting the normal retinal architecture. This leads to increased vascular permeability, fluid accumulation, and potential damage to the photoreceptors and retinal pigment epithelium.",
+        "differential_diagnosis": [
+          "- Wet age-related macular degeneration (wAMD)"
+        ],
+        "risk_stratification": "The severity score of 8.0/10 and the condition's prevalence of 80.0% percentile indicate a critical, high-risk scenario requiring immediate intervention. The patient's visual prognosis is guarded without prompt treatment.",
+        "prognosis": "Without timely and appropriate treatment, the patient is at a high risk of rapid and significant vision loss due to the advanced stage of the CNV. Early intervention is crucial to stabilize the condition and potentially improve or preserve visual acuity.",
+        "monitoring_recommendations": [
+          "- Frequent follow-up visits (every 4-6 weeks) for clinical examination and OCT imaging"
+        ],
+        "clinical_correlation_needs": [
+          "- Detailed medical history",
+          "including any underlying conditions or risk factors"
+        ],
+        "api_metadata": {
+          "model_used": "anthropic.claude-v2",
+          "response_time_ms": 4764.79959487915,
+          "tokens_used": 386,
+          "api_success": true
+        }
+      },
+      "treatment_recommendations": {
+        "recommendation_type": "comprehensive_treatment_plan",
+        "processing_time_ms": 25333.739042282104,
+        "immediate_interventions": [
+          "Clinical evaluation recommended"
+        ],
+        "medical_management": [
+          "Standard medical care"
+        ],
+        "surgical_considerations": [
+          "No surgical intervention indicated"
+        ],
+        "lifestyle_modifications": [
+          "Standard lifestyle recommendations"
+        ],
+        "follow_up_schedule": "Standard follow-up protocol",
+        "patient_education": [
+          "Disease education recommended"
+        ],
+        "referral_recommendations": [
+          "Specialist referral as appropriate"
+        ],
+        "api_metadata": {
+          "model_used": "amazon.titan-text-express-v1",
+          "response_time_ms": 25333.688735961914,
+          "tokens_used": 616,
+          "api_success": true
+        }
+      },
+      "quality_validation": {
+        "validation_type": "genai_quality_assurance",
+        "processing_time_ms": 0.03504753112792969,
+        "consistency_score": 75.0,
+        "medical_accuracy_score": 95.0,
+        "clinical_appropriateness_score": 75.0,
+        "overall_confidence": 81.66666666666667,
+        "quality_flags": [
+          "Missing immediate concerns in rapid assessment"
+        ],
+        "validation_passed": true,
+        "recommendations_for_improvement": [
+          "Fine-tune model parameters for better consistency",
+          "Add more specific clinical context to prompts",
+          "Consider A/B testing different prompt structures"
+        ]
+      },
+      "performance_metrics": {
+        "api_response_times": [
+          19729.719400405884,
+          2522.693157196045,
+          4764.79959487915,
+          25333.688735961914
+        ],
+        "token_usage_estimate": {
+          "input_tokens": 254,
+          "output_tokens": 800,
+          "total_tokens": 1054
+        },
+        "cost_estimate": 0.002112,
+        "confidence_score": 81.66666666666667,
+        "cache_efficiency": 0.0
+      }
+    },
+    {
+      "analysis_metadata": {
+        "analysis_id": "GENAI-010",
+        "timestamp": "2025-08-13T03:09:07.572260",
+        "filename": "train_amd_train_3010.jpg",
+        "condition_type": "AMD",
+        "is_normal": false,
+        "total_processing_time_ms": 26072.483777999878,
+        "api_calls_made": 4,
+        "version": "GenAI-v1.0",
+        "simulation_mode": false
+      },
+      "medical_context": {
+        "patient_data": {
+          "image_id": "train_amd_train_3010.jpg",
+          "modality": "Optical Coherence Tomography (OCT)",
+          "acquisition_date": "2025-08-13",
+          "clinical_indication": "Retinal pathology assessment"
+        },
+        "image_features": {
+          "brightness": 0.29895130208333337,
+          "contrast": 0.22596767261059256,
+          "texture_complexity": 232.40823721187968,
+          "quality_score": 0.13562669110322595,
+          "severity_score": 5.0
+        },
+        "statistical_context": {
+          "brightness_percentile": 44.70189810070782,
+          "texture_complexity_percentile": 1.4218830343747568,
+          "quality_compared_to_average": 0.592100965684723,
+          "severity_compared_to_dataset": 0.5
+        },
+        "clinical_classification": {
+          "condition": "AMD",
+          "is_normal": false,
+          "urgency_level": "HIGH - Urgent specialist referral needed",
+          "complexity_level": "MODERATELY COMPLEX - Specialist evaluation needed",
+          "quality_adequacy": "POOR - Not adequate for reliable diagnosis"
+        },
+        "dataset_context": {
+          "total_images_in_dataset": 8000,
+          "condition_prevalence": 0.125,
+          "average_severity_for_condition": 4.246,
+          "is_normal_case": false
+        }
+      },
+      "rapid_assessment": {
+        "assessment_type": "rapid_clinical_assessment",
+        "processing_time_ms": 3009.983539581299,
+        "primary_findings": "Analysis completed",
+        "immediate_concerns": [],
+        "preliminary_diagnosis": "AMD",
+        "urgency_assessment": "HIGH - Urgent specialist referral needed",
+        "next_steps": [
+          "Clinical correlation recommended"
+        ],
+        "api_metadata": {
+          "model_used": "anthropic.claude-instant-v1",
+          "response_time_ms": 3009.915351867676,
+          "tokens_used": 139,
+          "api_success": true
+        }
+      },
+      "comprehensive_analysis": {
+        "analysis_type": "comprehensive_medical_analysis",
+        "processing_time_ms": 6200.153112411499,
+        "detailed_findings": "The OCT imaging reveals significant retinal changes characteristic of advanced age-related macular degeneration (AMD). There is extensive retinal pigment epithelium (RPE) atrophy, with associated loss of the overlying photoreceptor layer. Subretinal fluid and intraretinal edema are also present, indicating active exudative disease.",
+        "pathophysiology": "AMD is a progressive degenerative condition affecting the macula, the central part of the retina responsible for high-acuity vision. In the advanced stage, as seen in this case, there is breakdown of the RPE and photoreceptor cells, leading to central vision loss. The exudative component is due to the development of choroidal neovascularization, which can cause fluid leakage and further retinal damage.",
+        "differential_diagnosis": [
+          "- Diabetic macular edema"
+        ],
+        "risk_stratification": "The severity score of 5.0/10 and the quality score of 0.136 indicate a high-risk case of advanced AMD. The patient's condition is in the 50th percentile for severity, suggesting a significant level of disease progression. Urgent specialist referral is warranted due to the high-risk nature of the findings.",
+        "prognosis": "Without prompt and appropriate treatment, the prognosis for this patient is guarded. The advanced stage of AMD and the presence of exudative changes portend a high risk of further vision loss and potential blindness if left untreated.",
+        "monitoring_recommendations": [
+          "- Frequent ophthalmologic examinations (every 4-6 weeks)"
+        ],
+        "clinical_correlation_needs": [
+          "- Detailed medical history",
+          "including any known risk factors for AMD (e.g.",
+          "age",
+          "family history",
+          "smoking status)"
+        ],
+        "api_metadata": {
+          "model_used": "anthropic.claude-v2",
+          "response_time_ms": 6200.102806091309,
+          "tokens_used": 468,
+          "api_success": true
+        }
+      },
+      "treatment_recommendations": {
+        "recommendation_type": "comprehensive_treatment_plan",
+        "processing_time_ms": 16858.954906463623,
+        "immediate_interventions": [
+          "Clinical evaluation recommended"
+        ],
+        "medical_management": [
+          "Standard medical care"
+        ],
+        "surgical_considerations": [
+          "No surgical intervention indicated"
+        ],
+        "lifestyle_modifications": [
+          "Standard lifestyle recommendations"
+        ],
+        "follow_up_schedule": "Standard follow-up protocol",
+        "patient_education": [
+          "Disease education recommended"
+        ],
+        "referral_recommendations": [
+          "Specialist referral as appropriate"
+        ],
+        "api_metadata": {
+          "model_used": "amazon.titan-text-express-v1",
+          "response_time_ms": 16858.877658843994,
+          "tokens_used": 384,
+          "api_success": true
+        }
+      },
+      "quality_validation": {
+        "validation_type": "genai_quality_assurance",
+        "processing_time_ms": 0.020742416381835938,
+        "consistency_score": 75.0,
+        "medical_accuracy_score": 80.0,
+        "clinical_appropriateness_score": 85.0,
+        "overall_confidence": 80.0,
+        "quality_flags": [
+          "Missing immediate concerns in rapid assessment"
+        ],
+        "validation_passed": true,
+        "recommendations_for_improvement": [
+          "Fine-tune model parameters for better consistency",
+          "Add more specific clinical context to prompts",
+          "Consider A/B testing different prompt structures"
+        ]
+      },
+      "performance_metrics": {
+        "api_response_times": [
+          25333.688735961914,
+          3009.915351867676,
+          6200.102806091309,
+          16858.877658843994
+        ],
+        "token_usage_estimate": {
+          "input_tokens": 254,
+          "output_tokens": 800,
+          "total_tokens": 1054
+        },
+        "cost_estimate": 0.0028146666666666667,
+        "confidence_score": 80.0,
+        "cache_efficiency": 0.0
+      }
+    },
+    {
+      "analysis_metadata": {
+        "analysis_id": "GENAI-002",
+        "timestamp": "2025-08-13T03:09:22.921718",
+        "filename": "val_normal_val_1225.jpg",
+        "condition_type": "NORMAL",
+        "is_normal": true,
+        "total_processing_time_ms": 15349.299669265747,
+        "api_calls_made": 4,
+        "version": "GenAI-v1.0",
+        "simulation_mode": false
+      },
+      "medical_context": {
+        "patient_data": {
+          "image_id": "val_normal_val_1225.jpg",
+          "modality": "Optical Coherence Tomography (OCT)",
+          "acquisition_date": "2025-08-13",
+          "clinical_indication": "Routine retinal assessment"
+        },
+        "image_features": {
+          "brightness": 0.1390618720186327,
+          "contrast": 1.209632293854632,
+          "texture_complexity": 525.2335778485696,
+          "quality_score": 0.27005545573487855,
+          "severity_score": 0
+        },
+        "statistical_context": {
+          "brightness_percentile": 20.793786778482655,
+          "texture_complexity_percentile": 3.2134003613046636,
+          "quality_compared_to_average": 1.178972183339259,
+          "severity_compared_to_dataset": 0
+        },
+        "clinical_classification": {
+          "condition": "NORMAL",
+          "is_normal": true,
+          "urgency_level": "ROUTINE - Normal findings, standard follow-up",
+          "complexity_level": "STRAIGHTFORWARD - Normal findings",
+          "quality_adequacy": "POOR - Not adequate for reliable diagnosis"
+        },
+        "dataset_context": {
+          "total_images_in_dataset": 8000,
+          "condition_prevalence": 0.125,
+          "average_severity_for_condition": 0.0,
+          "is_normal_case": true
+        }
+      },
+      "rapid_assessment": {
+        "assessment_type": "rapid_clinical_assessment",
+        "processing_time_ms": 1610.090732574463,
+        "primary_findings": "Analysis completed",
+        "immediate_concerns": [],
+        "preliminary_diagnosis": "NORMAL",
+        "urgency_assessment": "ROUTINE - Normal findings, standard follow-up",
+        "next_steps": [
+          "Clinical correlation recommended"
+        ],
+        "api_metadata": {
+          "model_used": "anthropic.claude-instant-v1",
+          "response_time_ms": 1610.0244522094727,
+          "tokens_used": 67,
+          "api_success": true
+        }
+      },
+      "comprehensive_analysis": {
+        "analysis_type": "comprehensive_medical_analysis",
+        "processing_time_ms": 6651.553392410278,
+        "detailed_findings": "The OCT imaging reveals a normal retinal architecture with well-defined layers and no structural abnormalities. The foveal contour is intact, and the optic nerve head appears healthy with a normal cup-to-disc ratio. The retinal nerve fiber layer (RNFL) thickness is within the normal range, and the macular thickness is also normal.",
+        "pathophysiology": "The normal findings on the OCT scan indicate a healthy retina with proper functioning of the various retinal layers. The photoreceptors, retinal pigment epithelium, and neurosensory retina are all structurally and functionally intact, allowing for optimal visual processing and light perception.",
+        "differential_diagnosis": [
+          "Given the normal findings",
+          "the differential diagnosis is limited. Potential conditions that could present with similar OCT findings include:"
+        ],
+        "risk_stratification": "Based on the normal OCT findings and the provided statistical context, the patient's risk of developing a retinal condition is low. The condition prevalence of 12.5% and the patient's severity percentile of 0.0% indicate a very low likelihood of any significant retinal pathology.",
+        "prognosis": "The patient's prognosis is excellent, as the normal OCT findings suggest a healthy retina with a low risk of developing vision-threatening conditions in the near future. With appropriate monitoring and routine eye care, the patient is expected to maintain good visual function.",
+        "monitoring_recommendations": [
+          "Regular follow-up"
+        ],
+        "clinical_correlation_needs": [
+          "Clinical history"
+        ],
+        "api_metadata": {
+          "model_used": "anthropic.claude-v2",
+          "response_time_ms": 6651.496887207031,
+          "tokens_used": 535,
+          "api_success": true
+        }
+      },
+      "treatment_recommendations": {
+        "recommendation_type": "comprehensive_treatment_plan",
+        "processing_time_ms": 7084.493637084961,
+        "immediate_interventions": [
+          "Clinical evaluation recommended"
+        ],
+        "medical_management": [
+          "Standard medical care"
+        ],
+        "surgical_considerations": [
+          "No surgical intervention indicated"
+        ],
+        "lifestyle_modifications": [
+          "Standard lifestyle recommendations"
+        ],
+        "follow_up_schedule": "Standard follow-up protocol",
+        "patient_education": [
+          "Disease education recommended"
+        ],
+        "referral_recommendations": [
+          "Specialist referral as appropriate"
+        ],
+        "api_metadata": {
+          "model_used": "amazon.titan-text-express-v1",
+          "response_time_ms": 7084.447622299194,
+          "tokens_used": 159,
+          "api_success": true
+        }
+      },
+      "quality_validation": {
+        "validation_type": "genai_quality_assurance",
+        "processing_time_ms": 0.02956390380859375,
         "consistency_score": 75.0,
         "medical_accuracy_score": 80.0,
         "clinical_appropriateness_score": 70.0,
@@ -294,209 +747,55 @@
       },
       "performance_metrics": {
         "api_response_times": [
-          21563.249826431274,
-          2142.8592205047607,
-          6103.116273880005,
-          7519.391298294067
+          16858.877658843994,
+          1610.0244522094727,
+          6651.496887207031,
+          7084.447622299194
         ],
         "token_usage_estimate": {
-          "input_tokens": 250,
+          "input_tokens": 248,
           "output_tokens": 800,
-          "total_tokens": 1050
+          "total_tokens": 1048
         },
-        "cost_estimate": 0.0014039999999999999,
+        "cost_estimate": 0.0035133333333333336,
         "confidence_score": 75.0,
         "cache_efficiency": 0.0
       }
     },
     {
       "analysis_metadata": {
-        "analysis_id": "GENAI-003",
-        "timestamp": "2025-08-03T08:44:41.344816",
-        "filename": "train_dme_train_1872.jpg",
-        "condition_type": "DME",
+        "analysis_id": "GENAI-006",
+        "timestamp": "2025-08-13T03:09:49.987074",
+        "filename": "train_dr_train_2696.jpg",
+        "condition_type": "DR",
         "is_normal": false,
-        "total_processing_time_ms": 28270.501375198364,
+        "total_processing_time_ms": 27065.19842147827,
         "api_calls_made": 4,
         "version": "GenAI-v1.0",
         "simulation_mode": false
       },
       "medical_context": {
         "patient_data": {
-          "image_id": "train_dme_train_1872.jpg",
+          "image_id": "train_dr_train_2696.jpg",
           "modality": "Optical Coherence Tomography (OCT)",
-          "acquisition_date": "2025-08-03",
+          "acquisition_date": "2025-08-13",
           "clinical_indication": "Retinal pathology assessment"
         },
         "image_features": {
-          "brightness": 0.18755153581207873,
-          "contrast": 0.7811724361587484,
-          "texture_complexity": 2539.29844456735,
-          "quality_score": 0.22015759764283166,
-          "severity_score": 5.0
-        },
-        "statistical_context": {
-          "brightness_percentile": 29.738059046198916,
-          "texture_complexity_percentile": 11.878548186734564,
-          "quality_compared_to_average": 1.097796663538365,
-          "severity_compared_to_dataset": 0.7142857142857143
-        },
-        "clinical_classification": {
-          "condition": "DME",
-          "is_normal": false,
-          "urgency_level": "HIGH - Urgent specialist referral needed",
-          "complexity_level": "MODERATELY COMPLEX - Specialist evaluation needed",
-          "quality_adequacy": "POOR - Not adequate for reliable diagnosis"
-        },
-        "dataset_context": {
-          "total_images_in_dataset": 8000,
-          "condition_prevalence": 0.125,
-          "average_severity_for_condition": 5.159,
-          "is_normal_case": false
-        }
-      },
-      "rapid_assessment": {
-        "assessment_type": "rapid_clinical_assessment",
-        "processing_time_ms": 2467.0956134796143,
-        "primary_findings": "Analysis completed",
-        "immediate_concerns": [],
-        "preliminary_diagnosis": "DME",
-        "urgency_assessment": "HIGH - Urgent specialist referral needed",
-        "next_steps": [
-          "Clinical correlation recommended"
-        ],
-        "api_metadata": {
-          "model_used": "anthropic.claude-instant-v1",
-          "response_time_ms": 2467.0393466949463,
-          "tokens_used": 128,
-          "api_success": true
-        }
-      },
-      "comprehensive_analysis": {
-        "analysis_type": "comprehensive_medical_analysis",
-        "processing_time_ms": 6126.159429550171,
-        "detailed_findings": "The OCT imaging reveals significant retinal thickening and intraretinal fluid accumulation consistent with diabetic macular edema (DME). There is disruption of the normal foveal contour and increased central subfield thickness. Cystic spaces and sponge-like retinal edema are evident, indicating advanced disease.",
-        "pathophysiology": "DME is a complication of diabetic retinopathy, characterized by increased vascular permeability and breakdown of the blood-retinal barrier. Chronic hyperglycemia leads to oxidative stress, inflammation, and the release of vascular endothelial growth factor (VEGF), which drives fluid accumulation within the retinal layers.",
-        "differential_diagnosis": [
-          "- Cystoid macular edema (CME) secondary to other causes (e.g.",
-          "post-surgical",
-          "inflammatory)"
-        ],
-        "risk_stratification": "The patient's DME severity score of 5.0/10 and severity percentile of 71.4% indicate a high-risk presentation. The urgent need for specialist referral is warranted given the advanced disease state and potential for rapid vision loss without timely intervention.",
-        "prognosis": "Without prompt and appropriate treatment, the patient's prognosis is guarded. Untreated DME can lead to progressive vision deterioration and potentially irreversible retinal damage. However, with early and effective management, the prognosis can be favorable, with the potential for significant visual improvement and stabilization of the disease.",
-        "monitoring_recommendations": [
-          "- Frequent ophthalmologic examinations (every 4-6 weeks)"
-        ],
-        "clinical_correlation_needs": [
-          "- Detailed medical history",
-          "including duration and control of diabetes",
-          "any prior ocular treatments",
-          "and presence of other systemic comorbidities"
-        ],
-        "api_metadata": {
-          "model_used": "anthropic.claude-v2",
-          "response_time_ms": 6126.112699508667,
-          "tokens_used": 456,
-          "api_success": true
-        }
-      },
-      "treatment_recommendations": {
-        "recommendation_type": "comprehensive_treatment_plan",
-        "processing_time_ms": 19674.051761627197,
-        "immediate_interventions": [
-          "Clinical evaluation recommended"
-        ],
-        "medical_management": [
-          "Standard medical care"
-        ],
-        "surgical_considerations": [
-          "No surgical intervention indicated"
-        ],
-        "lifestyle_modifications": [
-          "Standard lifestyle recommendations"
-        ],
-        "follow_up_schedule": "Standard follow-up protocol",
-        "patient_education": [
-          "Disease education recommended"
-        ],
-        "referral_recommendations": [
-          "Specialist referral as appropriate"
-        ],
-        "api_metadata": {
-          "model_used": "amazon.titan-text-express-v1",
-          "response_time_ms": 19674.012422561646,
-          "tokens_used": 403,
-          "api_success": true
-        }
-      },
-      "quality_validation": {
-        "validation_type": "genai_quality_assurance",
-        "processing_time_ms": 0.022649765014648438,
-        "consistency_score": 75.0,
-        "medical_accuracy_score": 90.0,
-        "clinical_appropriateness_score": 75.0,
-        "overall_confidence": 80.0,
-        "quality_flags": [
-          "Missing immediate concerns in rapid assessment"
-        ],
-        "validation_passed": true,
-        "recommendations_for_improvement": [
-          "Fine-tune model parameters for better consistency",
-          "Add more specific clinical context to prompts",
-          "Consider A/B testing different prompt structures"
-        ]
-      },
-      "performance_metrics": {
-        "api_response_times": [
-          7519.391298294067,
-          2467.0393466949463,
-          6126.112699508667,
-          19674.012422561646
-        ],
-        "token_usage_estimate": {
-          "input_tokens": 257,
-          "output_tokens": 800,
-          "total_tokens": 1057
-        },
-        "cost_estimate": 0.0021086666666666667,
-        "confidence_score": 80.0,
-        "cache_efficiency": 0.0
-      }
-    },
-    {
-      "analysis_metadata": {
-        "analysis_id": "GENAI-008",
-        "timestamp": "2025-08-03T08:45:17.701888",
-        "filename": "train_cnv_train_2875.jpg",
-        "condition_type": "CNV",
-        "is_normal": false,
-        "total_processing_time_ms": 36356.9438457489,
-        "api_calls_made": 4,
-        "version": "GenAI-v1.0",
-        "simulation_mode": false
-      },
-      "medical_context": {
-        "patient_data": {
-          "image_id": "train_cnv_train_2875.jpg",
-          "modality": "Optical Coherence Tomography (OCT)",
-          "acquisition_date": "2025-08-03",
-          "clinical_indication": "Retinal pathology assessment"
-        },
-        "image_features": {
-          "brightness": 0.19850027239978651,
-          "contrast": 1.012408022319982,
-          "texture_complexity": 1234.4354151657294,
-          "quality_score": 0.2334753620692645,
+          "brightness": 0.19165925228758168,
+          "contrast": 0.6725594791032049,
+          "texture_complexity": 456.21171132541156,
+          "quality_score": 0.18847167250269126,
           "severity_score": 6.0
         },
         "statistical_context": {
-          "brightness_percentile": 31.474084153733994,
-          "texture_complexity_percentile": 5.774547924380019,
-          "quality_compared_to_average": 1.1642045345801206,
-          "severity_compared_to_dataset": 0.8571428571428571
+          "brightness_percentile": 28.658622010046003,
+          "texture_complexity_percentile": 2.791121778636851,
+          "quality_compared_to_average": 0.822804555543743,
+          "severity_compared_to_dataset": 0.6
         },
         "clinical_classification": {
-          "condition": "CNV",
+          "condition": "DR",
           "is_normal": false,
           "urgency_level": "HIGH - Urgent specialist referral needed",
           "complexity_level": "HIGHLY COMPLEX - Multidisciplinary consultation recommended",
@@ -505,59 +804,54 @@
         "dataset_context": {
           "total_images_in_dataset": 8000,
           "condition_prevalence": 0.125,
-          "average_severity_for_condition": 5.366,
+          "average_severity_for_condition": 5.809,
           "is_normal_case": false
         }
       },
       "rapid_assessment": {
         "assessment_type": "rapid_clinical_assessment",
-        "processing_time_ms": 2973.707914352417,
+        "processing_time_ms": 2422.268867492676,
         "primary_findings": "Analysis completed",
         "immediate_concerns": [],
-        "preliminary_diagnosis": "CNV",
+        "preliminary_diagnosis": "DR",
         "urgency_assessment": "HIGH - Urgent specialist referral needed",
         "next_steps": [
           "Clinical correlation recommended"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-instant-v1",
-          "response_time_ms": 2973.651647567749,
-          "tokens_used": 149,
+          "response_time_ms": 2422.198534011841,
+          "tokens_used": 122,
           "api_success": true
         }
       },
       "comprehensive_analysis": {
         "analysis_type": "comprehensive_medical_analysis",
-        "processing_time_ms": 5835.965156555176,
-        "detailed_findings": "The OCT imaging reveals the presence of choroidal neovascularization (CNV), characterized by the development of abnormal blood vessels originating from the choroid and penetrating through the retinal pigment epithelium (RPE) into the subretinal space. The CNV lesion appears active, with associated intraretinal and subretinal fluid accumulation, indicating a high level of disease activity.",
-        "pathophysiology": "CNV is a complication of various retinal disorders, most commonly age-related macular degeneration (AMD). In this condition, the normal balance between pro-angiogenic and anti-angiogenic factors is disrupted, leading to the formation of these abnormal blood vessels that can cause significant vision loss if left untreated.",
+        "processing_time_ms": 5029.269456863403,
+        "detailed_findings": "The OCT imaging reveals significant retinal changes consistent with diabetic retinopathy (DR). There is evidence of diffuse retinal thickening, intraretinal fluid accumulation, and the presence of hard exudates. The foveal contour is distorted, indicating the development of diabetic macular edema.",
+        "pathophysiology": "Diabetic retinopathy is a microvascular complication of diabetes mellitus, characterized by progressive damage to the retinal blood vessels. Chronic hyperglycemia leads to the breakdown of the blood-retinal barrier, increased vascular permeability, and the accumulation of fluid and lipids within the retinal layers. This pathological process ultimately results in the observed retinal thickening and macular edema.",
         "differential_diagnosis": [
-          "The differential diagnosis for this presentation includes other causes of CNV",
-          "such as myopic macular degeneration",
-          "angioid streaks",
-          "and inflammatory conditions like multifocal choroiditis. Additionally",
-          "other retinal vascular disorders"
+          "- Hypertensive retinopathy"
         ],
-        "risk_stratification": "The severity score of 6.0/10 and the condition's prevalence of 85.7% percentile indicate a high-risk scenario. The presence of active CNV with associated fluid accumulation suggests a significant risk of rapid vision deterioration if left untreated.",
-        "prognosis": "Without prompt and appropriate treatment, the prognosis for this patient is guarded. The active CNV lesion poses a significant threat to central vision and can lead to permanent vision loss if not managed effectively.",
+        "risk_stratification": "The patient's condition is classified as severe, with a severity score of 6.0/10. This places the patient in the 60th percentile for disease severity, indicating a high-risk presentation that requires urgent specialist intervention. The overall prevalence of diabetic retinopathy in the general population is 12.5%, further emphasizing the need for prompt management.",
+        "prognosis": "Without timely and appropriate treatment, the patient's condition is likely to progress, potentially leading to significant vision loss and the development of sight-threatening complications, such as proliferative diabetic retinopathy and tractional retinal detachment. Early intervention is crucial to preserve visual function and prevent further deterioration.",
         "monitoring_recommendations": [
-          "The patient will require close monitoring",
-          "including:"
+          "- Frequent ophthalmological examinations (every 3-6 months)"
         ],
         "clinical_correlation_needs": [
-          "To provide comprehensive care",
-          "the following clinical information would be beneficial:"
+          "- Detailed medical history",
+          "including duration and control of diabetes mellitus"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-v2",
-          "response_time_ms": 5835.922479629517,
-          "tokens_used": 474,
+          "response_time_ms": 5029.216051101685,
+          "tokens_used": 440,
           "api_success": true
         }
       },
       "treatment_recommendations": {
         "recommendation_type": "comprehensive_treatment_plan",
-        "processing_time_ms": 27544.074058532715,
+        "processing_time_ms": 19610.289812088013,
         "immediate_interventions": [
           "Clinical evaluation recommended"
         ],
@@ -579,166 +873,14 @@
         ],
         "api_metadata": {
           "model_used": "amazon.titan-text-express-v1",
-          "response_time_ms": 27544.03328895569,
-          "tokens_used": 650,
+          "response_time_ms": 19610.2397441864,
+          "tokens_used": 479,
           "api_success": true
         }
       },
       "quality_validation": {
         "validation_type": "genai_quality_assurance",
-        "processing_time_ms": 0.026941299438476562,
-        "consistency_score": 85.0,
-        "medical_accuracy_score": 90.0,
-        "clinical_appropriateness_score": 75.0,
-        "overall_confidence": 83.33333333333333,
-        "quality_flags": [
-          "Missing immediate concerns in rapid assessment"
-        ],
-        "validation_passed": true,
-        "recommendations_for_improvement": [
-          "Fine-tune model parameters for better consistency",
-          "Add more specific clinical context to prompts",
-          "Consider A/B testing different prompt structures"
-        ]
-      },
-      "performance_metrics": {
-        "api_response_times": [
-          19674.012422561646,
-          2973.651647567749,
-          5835.922479629517,
-          27544.03328895569
-        ],
-        "token_usage_estimate": {
-          "input_tokens": 260,
-          "output_tokens": 800,
-          "total_tokens": 1060
-        },
-        "cost_estimate": 0.0028153333333333337,
-        "confidence_score": 83.33333333333333,
-        "cache_efficiency": 0.0
-      }
-    },
-    {
-      "analysis_metadata": {
-        "analysis_id": "GENAI-004",
-        "timestamp": "2025-08-03T08:45:41.281558",
-        "filename": "train_mh_train_3169.jpg",
-        "condition_type": "MH",
-        "is_normal": false,
-        "total_processing_time_ms": 23579.53906059265,
-        "api_calls_made": 4,
-        "version": "GenAI-v1.0",
-        "simulation_mode": false
-      },
-      "medical_context": {
-        "patient_data": {
-          "image_id": "train_mh_train_3169.jpg",
-          "modality": "Optical Coherence Tomography (OCT)",
-          "acquisition_date": "2025-08-03",
-          "clinical_indication": "Retinal pathology assessment"
-        },
-        "image_features": {
-          "brightness": 0.131349291503268,
-          "contrast": 0.7218985119513478,
-          "texture_complexity": 342.8862859200782,
-          "quality_score": 0.1533681193462868,
-          "severity_score": 3.0
-        },
-        "statistical_context": {
-          "brightness_percentile": 20.826664892333117,
-          "texture_complexity_percentile": 1.6039828947975656,
-          "quality_compared_to_average": 0.7647567538625413,
-          "severity_compared_to_dataset": 0.42857142857142855
-        },
-        "clinical_classification": {
-          "condition": "MH",
-          "is_normal": false,
-          "urgency_level": "MODERATE - Routine specialist consultation",
-          "complexity_level": "MILDLY COMPLEX - Standard clinical assessment",
-          "quality_adequacy": "POOR - Not adequate for reliable diagnosis"
-        },
-        "dataset_context": {
-          "total_images_in_dataset": 8000,
-          "condition_prevalence": 0.125,
-          "average_severity_for_condition": 3.079,
-          "is_normal_case": false
-        }
-      },
-      "rapid_assessment": {
-        "assessment_type": "rapid_clinical_assessment",
-        "processing_time_ms": 2221.39048576355,
-        "primary_findings": "Analysis completed",
-        "immediate_concerns": [],
-        "preliminary_diagnosis": "MH",
-        "urgency_assessment": "MODERATE - Routine specialist consultation",
-        "next_steps": [
-          "Clinical correlation recommended"
-        ],
-        "api_metadata": {
-          "model_used": "anthropic.claude-instant-v1",
-          "response_time_ms": 2221.3339805603027,
-          "tokens_used": 120,
-          "api_success": true
-        }
-      },
-      "comprehensive_analysis": {
-        "analysis_type": "comprehensive_medical_analysis",
-        "processing_time_ms": 7016.059637069702,
-        "detailed_findings": "The OCT imaging reveals the presence of a macular hole (MH) with a diameter of approximately 3.0 mm. The hole appears to be full-thickness, extending from the internal limiting membrane to the retinal pigment epithelium. There is associated intraretinal cystic changes and disruption of the foveal contour, indicating a moderate-sized MH.",
-        "pathophysiology": "Macular holes are caused by the tangential traction and subsequent dehiscence of the retinal layers at the fovea, often due to age-related vitreous degeneration and posterior vitreous detachment. The development of a full-thickness MH leads to a disruption of the normal retinal architecture and impairment of central visual function.",
-        "differential_diagnosis": [
-          "- Idiopathic macular hole"
-        ],
-        "risk_stratification": "Based on the severity score of 3.0/10 and the patient's condition being in the 42.9th percentile for severity, this macular hole is considered to be of moderate severity. Patients with moderate-sized macular holes have a higher risk of progressive visual impairment and may benefit from timely surgical intervention.",
-        "prognosis": "Patients with moderate-sized macular holes, such as the one observed in this case, have a reasonable prognosis for visual improvement with appropriate treatment. However, without intervention, the natural history of the condition often leads to further enlargement of the hole and progressive central visual loss.",
-        "monitoring_recommendations": [
-          "- Perform regular follow-up examinations",
-          "including visual acuity assessments and OCT imaging",
-          "every 3-6 months."
-        ],
-        "clinical_correlation_needs": [
-          "- Obtain a detailed medical history",
-          "including any history of ocular trauma or underlying conditions that may predispose the patient to macular hole formation."
-        ],
-        "api_metadata": {
-          "model_used": "anthropic.claude-v2",
-          "response_time_ms": 7016.014814376831,
-          "tokens_used": 496,
-          "api_success": true
-        }
-      },
-      "treatment_recommendations": {
-        "recommendation_type": "comprehensive_treatment_plan",
-        "processing_time_ms": 14339.102506637573,
-        "immediate_interventions": [
-          "Clinical evaluation recommended"
-        ],
-        "medical_management": [
-          "Standard medical care"
-        ],
-        "surgical_considerations": [
-          "No surgical intervention indicated"
-        ],
-        "lifestyle_modifications": [
-          "Standard lifestyle recommendations"
-        ],
-        "follow_up_schedule": "Standard follow-up protocol",
-        "patient_education": [
-          "Disease education recommended"
-        ],
-        "referral_recommendations": [
-          "Specialist referral as appropriate"
-        ],
-        "api_metadata": {
-          "model_used": "amazon.titan-text-express-v1",
-          "response_time_ms": 14339.062452316284,
-          "tokens_used": 367,
-          "api_success": true
-        }
-      },
-      "quality_validation": {
-        "validation_type": "genai_quality_assurance",
-        "processing_time_ms": 0.015735626220703125,
+        "processing_time_ms": 0.025033950805664062,
         "consistency_score": 75.0,
         "medical_accuracy_score": 80.0,
         "clinical_appropriateness_score": 85.0,
@@ -755,111 +897,111 @@
       },
       "performance_metrics": {
         "api_response_times": [
-          27544.03328895569,
-          2221.3339805603027,
-          7016.014814376831,
-          14339.062452316284
+          7084.447622299194,
+          2422.198534011841,
+          5029.216051101685,
+          19610.2397441864
         ],
         "token_usage_estimate": {
           "input_tokens": 256,
           "output_tokens": 800,
           "total_tokens": 1056
         },
-        "cost_estimate": 0.0035193333333333335,
+        "cost_estimate": 0.004217333333333333,
         "confidence_score": 80.0,
         "cache_efficiency": 0.0
       }
     },
     {
       "analysis_metadata": {
-        "analysis_id": "GENAI-009",
-        "timestamp": "2025-08-03T08:46:08.421540",
-        "filename": "train_amd_train_1574.jpg",
-        "condition_type": "AMD",
-        "is_normal": false,
-        "total_processing_time_ms": 27139.858961105347,
+        "analysis_id": "GENAI-001",
+        "timestamp": "2025-08-13T03:10:07.995704",
+        "filename": "train_normal_train_1501.jpg",
+        "condition_type": "NORMAL",
+        "is_normal": true,
+        "total_processing_time_ms": 18008.471250534058,
         "api_calls_made": 4,
         "version": "GenAI-v1.0",
         "simulation_mode": false
       },
       "medical_context": {
         "patient_data": {
-          "image_id": "train_amd_train_1574.jpg",
+          "image_id": "train_normal_train_1501.jpg",
           "modality": "Optical Coherence Tomography (OCT)",
-          "acquisition_date": "2025-08-03",
-          "clinical_indication": "Retinal pathology assessment"
+          "acquisition_date": "2025-08-13",
+          "clinical_indication": "Routine retinal assessment"
         },
         "image_features": {
-          "brightness": 0.30776834405637254,
-          "contrast": 0.37268852858387524,
-          "texture_complexity": 39.633354582820886,
-          "quality_score": 0.14859470452571508,
-          "severity_score": 2.0
+          "brightness": 0.08325779026328273,
+          "contrast": 1.314247194148931,
+          "texture_complexity": 622.1539741975317,
+          "quality_score": 0.27432212898234254,
+          "severity_score": 0
         },
         "statistical_context": {
-          "brightness_percentile": 48.799564068991394,
-          "texture_complexity_percentile": 0.18540030740427144,
-          "quality_compared_to_average": 0.7409545370877669,
-          "severity_compared_to_dataset": 0.2857142857142857
+          "brightness_percentile": 12.449456585413746,
+          "texture_complexity_percentile": 3.8063632825277596,
+          "quality_compared_to_average": 1.1975990578101685,
+          "severity_compared_to_dataset": 0
         },
         "clinical_classification": {
-          "condition": "AMD",
-          "is_normal": false,
-          "urgency_level": "LOW - Standard follow-up appropriate",
-          "complexity_level": "MILDLY COMPLEX - Standard clinical assessment",
+          "condition": "NORMAL",
+          "is_normal": true,
+          "urgency_level": "ROUTINE - Normal findings, standard follow-up",
+          "complexity_level": "STRAIGHTFORWARD - Normal findings",
           "quality_adequacy": "POOR - Not adequate for reliable diagnosis"
         },
         "dataset_context": {
           "total_images_in_dataset": 8000,
           "condition_prevalence": 0.125,
-          "average_severity_for_condition": 2.167,
-          "is_normal_case": false
+          "average_severity_for_condition": 0.0,
+          "is_normal_case": true
         }
       },
       "rapid_assessment": {
         "assessment_type": "rapid_clinical_assessment",
-        "processing_time_ms": 2254.664421081543,
+        "processing_time_ms": 1627.6092529296875,
         "primary_findings": "Analysis completed",
         "immediate_concerns": [],
-        "preliminary_diagnosis": "AMD",
-        "urgency_assessment": "LOW - Standard follow-up appropriate",
+        "preliminary_diagnosis": "NORMAL",
+        "urgency_assessment": "ROUTINE - Normal findings, standard follow-up",
         "next_steps": [
           "Clinical correlation recommended"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-instant-v1",
-          "response_time_ms": 2254.6050548553467,
-          "tokens_used": 120,
+          "response_time_ms": 1627.539873123169,
+          "tokens_used": 67,
           "api_success": true
         }
       },
       "comprehensive_analysis": {
         "analysis_type": "comprehensive_medical_analysis",
-        "processing_time_ms": 6387.0508670806885,
-        "detailed_findings": "The OCT imaging reveals the presence of drusen deposits and retinal pigment epithelial (RPE) changes consistent with age-related macular degeneration (AMD). There is no evidence of subretinal fluid, intraretinal edema, or geographic atrophy. The foveal contour appears relatively preserved.",
-        "pathophysiology": "AMD is a progressive degenerative condition affecting the macula, the central part of the retina responsible for sharp, detailed vision. In this case, the presence of drusen, which are extracellular deposits of lipids and proteins, and RPE changes indicate an early stage of the dry (non-neovascular) form of AMD. These changes can lead to gradual photoreceptor dysfunction and vision loss over time.",
+        "processing_time_ms": 6967.874526977539,
+        "detailed_findings": "The OCT imaging shows a normal retinal architecture with well-defined layers and no structural abnormalities. The foveal contour is intact, and the optic nerve head appears healthy with a normal cup-to-disc ratio. The retinal nerve fiber layer (RNFL) thickness is within the normal range, and the macular thickness is also normal.",
+        "pathophysiology": "In this case, the normal OCT findings indicate a healthy retina with proper anatomical and functional integrity. The retinal layers, including the photoreceptors, retinal pigment epithelium, and the neurosensory retina, are all present and well-organized, allowing for optimal visual function.",
         "differential_diagnosis": [
-          "The differential diagnosis for this presentation includes:"
+          "Given the normal OCT findings",
+          "the differential diagnosis is limited. Potential conditions that could present with similar findings include:"
         ],
-        "risk_stratification": "The patient's AMD severity score of 2.0/10 and severity percentile of 28.6% indicate a relatively mild stage of the disease. However, the condition is progressive, and close monitoring is essential to detect any progression or development of the neovascular (wet) form of AMD, which can lead to more rapid vision loss.",
-        "prognosis": "With appropriate monitoring and management, the prognosis for this patient with early-stage dry AMD is generally favorable. However, the condition may progress over time, and the patient should be counseled about the potential for gradual vision loss and the importance of regular follow-up examinations.",
+        "risk_stratification": "Based on the normal OCT findings and the provided statistical context, the patient's risk of developing a retinal condition is low. The condition prevalence of 12.5% and the patient's severity percentile of 0.0% indicate a very low likelihood of any significant retinal pathology.",
+        "prognosis": "The patient's prognosis is excellent, as the normal OCT findings suggest a healthy retina with no evidence of disease. Barring the development of any new risk factors or symptoms, the patient is expected to maintain good visual function and overall ocular health.",
         "monitoring_recommendations": [
-          "The recommended monitoring plan includes:"
+          "Regular follow-up"
         ],
         "clinical_correlation_needs": [
-          "To provide a comprehensive management plan",
-          "the following clinical information would be helpful:"
+          "Clinical history"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-v2",
-          "response_time_ms": 6387.0086669921875,
-          "tokens_used": 526,
+          "response_time_ms": 6967.822074890137,
+          "tokens_used": 562,
           "api_success": true
         }
       },
       "treatment_recommendations": {
         "recommendation_type": "comprehensive_treatment_plan",
-        "processing_time_ms": 18495.856285095215,
+        "processing_time_ms": 9409.720659255981,
         "immediate_interventions": [
           "Clinical evaluation recommended"
         ],
@@ -881,18 +1023,18 @@
         ],
         "api_metadata": {
           "model_used": "amazon.titan-text-express-v1",
-          "response_time_ms": 18495.81503868103,
-          "tokens_used": 457,
+          "response_time_ms": 9409.672498703003,
+          "tokens_used": 218,
           "api_success": true
         }
       },
       "quality_validation": {
         "validation_type": "genai_quality_assurance",
-        "processing_time_ms": 0.016927719116210938,
+        "processing_time_ms": 0.030279159545898438,
         "consistency_score": 75.0,
         "medical_accuracy_score": 80.0,
-        "clinical_appropriateness_score": 85.0,
-        "overall_confidence": 80.0,
+        "clinical_appropriateness_score": 70.0,
+        "overall_confidence": 75.0,
         "quality_flags": [
           "Missing immediate concerns in rapid assessment"
         ],
@@ -905,114 +1047,115 @@
       },
       "performance_metrics": {
         "api_response_times": [
-          14339.062452316284,
-          2254.6050548553467,
-          6387.0086669921875,
-          18495.81503868103
+          19610.2397441864,
+          1627.539873123169,
+          6967.822074890137,
+          9409.672498703003
         ],
         "token_usage_estimate": {
-          "input_tokens": 256,
+          "input_tokens": 250,
           "output_tokens": 800,
-          "total_tokens": 1056
+          "total_tokens": 1050
         },
-        "cost_estimate": 0.004223333333333332,
-        "confidence_score": 80.0,
+        "cost_estimate": 0.004917333333333333,
+        "confidence_score": 75.0,
         "cache_efficiency": 0.0
       }
     },
     {
       "analysis_metadata": {
-        "analysis_id": "GENAI-005",
-        "timestamp": "2025-08-03T08:46:32.265668",
-        "filename": "train_amd_train_1807.jpg",
-        "condition_type": "AMD",
+        "analysis_id": "GENAI-007",
+        "timestamp": "2025-08-13T03:10:32.188311",
+        "filename": "train_drusen_train_3022.jpg",
+        "condition_type": "DRUSEN",
         "is_normal": false,
-        "total_processing_time_ms": 23844.00773048401,
+        "total_processing_time_ms": 24192.451238632202,
         "api_calls_made": 4,
         "version": "GenAI-v1.0",
         "simulation_mode": false
       },
       "medical_context": {
         "patient_data": {
-          "image_id": "train_amd_train_1807.jpg",
+          "image_id": "train_drusen_train_3022.jpg",
           "modality": "Optical Coherence Tomography (OCT)",
-          "acquisition_date": "2025-08-03",
+          "acquisition_date": "2025-08-13",
           "clinical_indication": "Retinal pathology assessment"
         },
         "image_features": {
-          "brightness": 0.3190727864583333,
-          "contrast": 0.39217311291866785,
-          "texture_complexity": 76.81267647569277,
-          "quality_score": 0.155584505040997,
-          "severity_score": 2.0
+          "brightness": 0.1264931852697396,
+          "contrast": 1.098707616693377,
+          "texture_complexity": 790.3111107725051,
+          "quality_score": 0.2530118035708676,
+          "severity_score": 8.0
         },
         "statistical_context": {
-          "brightness_percentile": 50.59198967712237,
-          "texture_complexity_percentile": 0.35932093008627397,
-          "quality_compared_to_average": 0.7758085678667728,
-          "severity_compared_to_dataset": 0.2857142857142857
+          "brightness_percentile": 18.914403245467902,
+          "texture_complexity_percentile": 4.835155473688409,
+          "quality_compared_to_average": 1.1045652740279888,
+          "severity_compared_to_dataset": 0.8
         },
         "clinical_classification": {
-          "condition": "AMD",
+          "condition": "DRUSEN",
           "is_normal": false,
-          "urgency_level": "LOW - Standard follow-up appropriate",
-          "complexity_level": "MILDLY COMPLEX - Standard clinical assessment",
+          "urgency_level": "CRITICAL - Immediate intervention required",
+          "complexity_level": "HIGHLY COMPLEX - Multidisciplinary consultation recommended",
           "quality_adequacy": "POOR - Not adequate for reliable diagnosis"
         },
         "dataset_context": {
           "total_images_in_dataset": 8000,
           "condition_prevalence": 0.125,
-          "average_severity_for_condition": 2.167,
+          "average_severity_for_condition": 7.482,
           "is_normal_case": false
         }
       },
       "rapid_assessment": {
         "assessment_type": "rapid_clinical_assessment",
-        "processing_time_ms": 2371.80495262146,
+        "processing_time_ms": 2384.263277053833,
         "primary_findings": "Analysis completed",
         "immediate_concerns": [],
-        "preliminary_diagnosis": "AMD",
-        "urgency_assessment": "LOW - Standard follow-up appropriate",
+        "preliminary_diagnosis": "DRUSEN",
+        "urgency_assessment": "CRITICAL - Immediate intervention required",
         "next_steps": [
           "Clinical correlation recommended"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-instant-v1",
-          "response_time_ms": 2371.748685836792,
-          "tokens_used": 126,
+          "response_time_ms": 2384.193181991577,
+          "tokens_used": 118,
           "api_success": true
         }
       },
       "comprehensive_analysis": {
         "analysis_type": "comprehensive_medical_analysis",
-        "processing_time_ms": 5846.304178237915,
-        "detailed_findings": "The OCT imaging reveals the presence of drusen deposits and retinal pigment epithelial (RPE) changes consistent with age-related macular degeneration (AMD). There is no evidence of subretinal fluid, intraretinal edema, or geographic atrophy. The foveal contour appears relatively preserved.",
-        "pathophysiology": "AMD is a progressive, degenerative condition affecting the macula, the central part of the retina responsible for sharp, detailed vision. In this case, the presence of drusen, which are extracellular deposits of lipids and proteins, and RPE changes indicate an early stage of the dry (non-neovascular) form of AMD. This process is characterized by gradual deterioration of the RPE and photoreceptors, leading to progressive vision loss.",
+        "processing_time_ms": 5676.3293743133545,
+        "detailed_findings": "The OCT imaging reveals the presence of numerous, confluent drusen deposits in the macula. The drusen are heterogeneous in size and distribution, with some larger, more prominent deposits noted. There is evidence of disruption to the retinal pigment epithelium (RPE) and outer retinal layers, indicating advanced disease.",
+        "pathophysiology": "Drusen are extracellular deposits of lipid and protein that accumulate between the RPE and Bruch's membrane. The formation of drusen is associated with aging and is a hallmark of age-related macular degeneration (AMD). The presence of extensive, confluent drusen indicates a significant disruption of the normal retinal architecture and function.",
         "differential_diagnosis": [
-          "- Diabetic macular edema"
+          "- Age-related macular degeneration (wet or dry)"
         ],
-        "risk_stratification": "The patient's AMD severity score of 2.0/10 and severity percentile of 28.6% indicate a relatively mild stage of the disease. However, the condition is progressive, and the patient remains at risk of developing the more advanced, vision-threatening neovascular form of AMD.",
-        "prognosis": "With appropriate monitoring and management, the patient's current visual function can be maintained in the short to medium term. However, the long-term prognosis is guarded, as the natural history of AMD suggests a gradual, progressive decline in visual acuity over time.",
+        "risk_stratification": "The severity score of 8.0/10 and the condition prevalence of 12.5% place this patient in the high-risk category for vision-threatening complications. The severity percentile of 80.0% further underscores the advanced nature of the disease and the need for immediate intervention.",
+        "prognosis": "Without prompt and appropriate treatment, the patient is at a high risk of developing vision loss, potentially progressing to advanced dry or wet AMD. Early intervention is crucial to prevent further deterioration of retinal function and maintain visual acuity.",
         "monitoring_recommendations": [
-          "- Comprehensive eye examination",
-          "including dilated fundus evaluation",
-          "every 6-12 months"
+          "- Frequent (every 3-6 months) comprehensive eye examinations",
+          "including dilated fundus evaluation and OCT imaging"
         ],
         "clinical_correlation_needs": [
-          "- Assess for any relevant medical history",
-          "such as cardiovascular disease or smoking status",
-          "which may influence AMD risk and progression"
+          "- Detailed medical history",
+          "including risk factors for AMD (e.g.",
+          "age",
+          "smoking",
+          "family history)"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-v2",
-          "response_time_ms": 5846.261262893677,
-          "tokens_used": 429,
+          "response_time_ms": 5676.275253295898,
+          "tokens_used": 487,
           "api_success": true
         }
       },
       "treatment_recommendations": {
         "recommendation_type": "comprehensive_treatment_plan",
-        "processing_time_ms": 15622.77626991272,
+        "processing_time_ms": 16128.591537475586,
         "immediate_interventions": [
           "Clinical evaluation recommended"
         ],
@@ -1034,228 +1177,76 @@
         ],
         "api_metadata": {
           "model_used": "amazon.titan-text-express-v1",
-          "response_time_ms": 15622.731685638428,
-          "tokens_used": 404,
+          "response_time_ms": 16128.543376922607,
+          "tokens_used": 383,
           "api_success": true
         }
       },
       "quality_validation": {
         "validation_type": "genai_quality_assurance",
-        "processing_time_ms": 0.016450881958007812,
+        "processing_time_ms": 0.032901763916015625,
         "consistency_score": 75.0,
-        "medical_accuracy_score": 80.0,
+        "medical_accuracy_score": 95.0,
         "clinical_appropriateness_score": 85.0,
-        "overall_confidence": 80.0,
+        "overall_confidence": 85.0,
         "quality_flags": [
           "Missing immediate concerns in rapid assessment"
         ],
         "validation_passed": true,
         "recommendations_for_improvement": [
-          "Fine-tune model parameters for better consistency",
-          "Add more specific clinical context to prompts",
-          "Consider A/B testing different prompt structures"
+          "Quality meets standards",
+          "Continue monitoring for edge cases",
+          "Consider periodic prompt optimization"
         ]
       },
       "performance_metrics": {
         "api_response_times": [
-          18495.81503868103,
-          2371.748685836792,
-          5846.261262893677,
-          15622.731685638428
+          9409.672498703003,
+          2384.193181991577,
+          5676.275253295898,
+          16128.543376922607
         ],
         "token_usage_estimate": {
-          "input_tokens": 255,
+          "input_tokens": 257,
           "output_tokens": 800,
-          "total_tokens": 1055
+          "total_tokens": 1057
         },
-        "cost_estimate": 0.004926666666666667,
-        "confidence_score": 80.0,
+        "cost_estimate": 0.005622,
+        "confidence_score": 85.0,
         "cache_efficiency": 0.0
       }
     },
     {
       "analysis_metadata": {
-        "analysis_id": "GENAI-010",
-        "timestamp": "2025-08-03T08:46:58.884225",
-        "filename": "val_amd_val_1260.jpg",
-        "condition_type": "AMD",
-        "is_normal": false,
-        "total_processing_time_ms": 26618.42131614685,
-        "api_calls_made": 4,
-        "version": "GenAI-v1.0",
-        "simulation_mode": false
-      },
-      "medical_context": {
-        "patient_data": {
-          "image_id": "val_amd_val_1260.jpg",
-          "modality": "Optical Coherence Tomography (OCT)",
-          "acquisition_date": "2025-08-03",
-          "clinical_indication": "Retinal pathology assessment"
-        },
-        "image_features": {
-          "brightness": 0.3070424325980392,
-          "contrast": 0.3732180077810918,
-          "texture_complexity": 458.3470719235841,
-          "quality_score": 0.15629059198027553,
-          "severity_score": 2.0
-        },
-        "statistical_context": {
-          "brightness_percentile": 48.68446398347752,
-          "texture_complexity_percentile": 2.144095268416009,
-          "quality_compared_to_average": 0.7793294088207403,
-          "severity_compared_to_dataset": 0.2857142857142857
-        },
-        "clinical_classification": {
-          "condition": "AMD",
-          "is_normal": false,
-          "urgency_level": "LOW - Standard follow-up appropriate",
-          "complexity_level": "MILDLY COMPLEX - Standard clinical assessment",
-          "quality_adequacy": "POOR - Not adequate for reliable diagnosis"
-        },
-        "dataset_context": {
-          "total_images_in_dataset": 8000,
-          "condition_prevalence": 0.125,
-          "average_severity_for_condition": 2.167,
-          "is_normal_case": false
-        }
-      },
-      "rapid_assessment": {
-        "assessment_type": "rapid_clinical_assessment",
-        "processing_time_ms": 1984.23171043396,
-        "primary_findings": "Analysis completed",
-        "immediate_concerns": [],
-        "preliminary_diagnosis": "AMD",
-        "urgency_assessment": "LOW - Standard follow-up appropriate",
-        "next_steps": [
-          "Clinical correlation recommended"
-        ],
-        "api_metadata": {
-          "model_used": "anthropic.claude-instant-v1",
-          "response_time_ms": 1984.1759204864502,
-          "tokens_used": 100,
-          "api_success": true
-        }
-      },
-      "comprehensive_analysis": {
-        "analysis_type": "comprehensive_medical_analysis",
-        "processing_time_ms": 6004.897594451904,
-        "detailed_findings": "The OCT imaging reveals the presence of drusen deposits and retinal pigment epithelial (RPE) changes consistent with age-related macular degeneration (AMD). There is no evidence of subretinal fluid, intraretinal edema, or geographic atrophy. The foveal contour appears relatively preserved.",
-        "pathophysiology": "AMD is a progressive, degenerative condition affecting the macula, the central part of the retina responsible for sharp, detailed vision. In this case, the presence of drusen, which are extracellular deposits of lipids and proteins, and RPE changes indicate an early stage of the dry (non-neovascular) form of AMD. This process is characterized by gradual deterioration of the RPE and photoreceptors, leading to progressive vision loss.",
-        "differential_diagnosis": [
-          "- Diabetic macular edema"
-        ],
-        "risk_stratification": "The patient's AMD severity score of 2.0/10 and severity percentile of 28.6% indicate a relatively mild stage of the disease. However, the condition is progressive, and close monitoring is essential to detect any progression or development of the neovascular (wet) form, which requires prompt treatment.",
-        "prognosis": "With appropriate monitoring and management, the prognosis for this patient with early-stage dry AMD is generally favorable. However, the condition may gradually worsen over time, and the patient should be advised of the potential for vision loss if the disease progresses.",
-        "monitoring_recommendations": [
-          "- Comprehensive eye examination",
-          "including OCT imaging",
-          "every 6-12 months"
-        ],
-        "clinical_correlation_needs": [
-          "- Assess for any relevant medical history",
-          "such as cardiovascular disease or family history of AMD"
-        ],
-        "api_metadata": {
-          "model_used": "anthropic.claude-v2",
-          "response_time_ms": 6004.853010177612,
-          "tokens_used": 457,
-          "api_success": true
-        }
-      },
-      "treatment_recommendations": {
-        "recommendation_type": "comprehensive_treatment_plan",
-        "processing_time_ms": 18626.4967918396,
-        "immediate_interventions": [
-          "Clinical evaluation recommended"
-        ],
-        "medical_management": [
-          "Standard medical care"
-        ],
-        "surgical_considerations": [
-          "No surgical intervention indicated"
-        ],
-        "lifestyle_modifications": [
-          "Standard lifestyle recommendations"
-        ],
-        "follow_up_schedule": "Standard follow-up protocol",
-        "patient_education": [
-          "Disease education recommended"
-        ],
-        "referral_recommendations": [
-          "Specialist referral as appropriate"
-        ],
-        "api_metadata": {
-          "model_used": "amazon.titan-text-express-v1",
-          "response_time_ms": 18626.457691192627,
-          "tokens_used": 458,
-          "api_success": true
-        }
-      },
-      "quality_validation": {
-        "validation_type": "genai_quality_assurance",
-        "processing_time_ms": 0.016689300537109375,
-        "consistency_score": 75.0,
-        "medical_accuracy_score": 80.0,
-        "clinical_appropriateness_score": 85.0,
-        "overall_confidence": 80.0,
-        "quality_flags": [
-          "Missing immediate concerns in rapid assessment"
-        ],
-        "validation_passed": true,
-        "recommendations_for_improvement": [
-          "Fine-tune model parameters for better consistency",
-          "Add more specific clinical context to prompts",
-          "Consider A/B testing different prompt structures"
-        ]
-      },
-      "performance_metrics": {
-        "api_response_times": [
-          15622.731685638428,
-          1984.1759204864502,
-          6004.853010177612,
-          18626.457691192627
-        ],
-        "token_usage_estimate": {
-          "input_tokens": 254,
-          "output_tokens": 800,
-          "total_tokens": 1054
-        },
-        "cost_estimate": 0.005629333333333333,
-        "confidence_score": 80.0,
-        "cache_efficiency": 0.0
-      }
-    },
-    {
-      "analysis_metadata": {
-        "analysis_id": "GENAI-002",
-        "timestamp": "2025-08-03T08:47:30.764036",
-        "filename": "val_csr_val_1105.jpg",
+        "analysis_id": "GENAI-003",
+        "timestamp": "2025-08-13T03:11:11.607732",
+        "filename": "train_csr_train_2166.jpg",
         "condition_type": "CSR",
         "is_normal": false,
-        "total_processing_time_ms": 31879.68349456787,
+        "total_processing_time_ms": 39419.26288604736,
         "api_calls_made": 4,
         "version": "GenAI-v1.0",
         "simulation_mode": false
       },
       "medical_context": {
         "patient_data": {
-          "image_id": "val_csr_val_1105.jpg",
+          "image_id": "train_csr_train_2166.jpg",
           "modality": "Optical Coherence Tomography (OCT)",
-          "acquisition_date": "2025-08-03",
+          "acquisition_date": "2025-08-13",
           "clinical_indication": "Retinal pathology assessment"
         },
         "image_features": {
-          "brightness": 0.13739271111111112,
-          "contrast": 1.002179665457785,
-          "texture_complexity": 368.0886929701262,
-          "quality_score": 0.19740860362464396,
+          "brightness": 0.21497775734366245,
+          "contrast": 0.48852166724308865,
+          "texture_complexity": 280.3453869245891,
+          "quality_score": 0.15837899086974308,
           "severity_score": 4.0
         },
         "statistical_context": {
-          "brightness_percentile": 21.784905881194273,
-          "texture_complexity_percentile": 1.721876877368291,
-          "quality_compared_to_average": 0.984360788513346,
-          "severity_compared_to_dataset": 0.5714285714285714
+          "brightness_percentile": 32.14541544300184,
+          "texture_complexity_percentile": 1.7151644632539056,
+          "quality_compared_to_average": 0.691429929281201,
+          "severity_compared_to_dataset": 0.4
         },
         "clinical_classification": {
           "condition": "CSR",
@@ -1267,13 +1258,13 @@
         "dataset_context": {
           "total_images_in_dataset": 8000,
           "condition_prevalence": 0.125,
-          "average_severity_for_condition": 3.178,
+          "average_severity_for_condition": 4.714,
           "is_normal_case": false
         }
       },
       "rapid_assessment": {
         "assessment_type": "rapid_clinical_assessment",
-        "processing_time_ms": 2704.249382019043,
+        "processing_time_ms": 2531.378746032715,
         "primary_findings": "Analysis completed",
         "immediate_concerns": [],
         "preliminary_diagnosis": "CSR",
@@ -1283,43 +1274,40 @@
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-instant-v1",
-          "response_time_ms": 2704.191207885742,
+          "response_time_ms": 2531.3074588775635,
           "tokens_used": 128,
           "api_success": true
         }
       },
       "comprehensive_analysis": {
         "analysis_type": "comprehensive_medical_analysis",
-        "processing_time_ms": 6000.998020172119,
+        "processing_time_ms": 6263.219356536865,
         "detailed_findings": "The OCT imaging reveals focal serous retinal detachment in the macula with associated subretinal fluid accumulation. There is also evidence of retinal pigment epithelial (RPE) irregularity and mild thickening. The photoreceptor layer appears disrupted in the area of the serous detachment.",
-        "pathophysiology": "CSR is characterized by the development of a localized serous detachment of the neurosensory retina, typically in the macula. This is thought to be caused by a dysfunction of the RPE, leading to the leakage of fluid from the choroidal vasculature into the subretinal space. The exact underlying mechanisms are not fully understood but may involve factors such as stress, corticosteroid use, and choroidal vascular hyperpermeability.",
+        "pathophysiology": "CSR is characterized by the development of a localized serous detachment of the neurosensory retina, typically in the macula. This is thought to be caused by a dysfunction of the RPE, leading to the leakage of fluid from the choroidal vasculature into the subretinal space. The underlying mechanism is not fully understood but is believed to involve increased choroidal permeability and/or RPE pump dysfunction.",
         "differential_diagnosis": [
-          "- Choroidal neovascularization (e.g.",
-          "age-related macular degeneration)"
+          "- Choroidal neovascularization (CNV)"
         ],
-        "risk_stratification": "The patient's CSR severity is rated as 4.0/10, which places them in the 57.1 percentile for severity. This indicates a moderate level of disease activity and potential impact on visual function. Factors such as chronicity, recurrence, and the presence of subretinal fluid are important considerations for risk assessment.",
-        "prognosis": "In most cases, CSR is a self-limiting condition, and the majority of patients experience spontaneous resolution of the serous detachment within 3-6 months. However, a subset of patients may develop chronic or recurrent CSR, which can lead to more significant and persistent visual impairment. Early recognition and appropriate management are crucial to optimize visual outcomes.",
+        "risk_stratification": "The patient's CSR severity is rated as 4.0/10, which places them in the 40th percentile for severity. This indicates a moderate level of disease activity. Factors such as symptom duration, recurrence history, and associated risk factors (e.g., stress, corticosteroid use) should also be considered when assessing the overall risk profile.",
+        "prognosis": "The prognosis for CSR is generally favorable, with the majority of cases resolving spontaneously within 3-6 months. However, a subset of patients may develop chronic or recurrent disease, which can lead to more significant visual impairment and the development of complications, such as RPE atrophy or choroidal neovascularization.",
         "monitoring_recommendations": [
-          "- Comprehensive ophthalmic examination",
+          "- Comprehensive eye examination",
           "including visual acuity assessment",
-          "at 4-6 week intervals"
+          "every 4-6 weeks"
         ],
         "clinical_correlation_needs": [
           "- Detailed medical history",
-          "including any history of corticosteroid use",
-          "stress",
-          "or other systemic conditions"
+          "including any history of corticosteroid use or other risk factors"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-v2",
-          "response_time_ms": 6000.953197479248,
-          "tokens_used": 513,
+          "response_time_ms": 6263.1659507751465,
+          "tokens_used": 479,
           "api_success": true
         }
       },
       "treatment_recommendations": {
         "recommendation_type": "comprehensive_treatment_plan",
-        "processing_time_ms": 23171.780109405518,
+        "processing_time_ms": 30621.45471572876,
         "immediate_interventions": [
           "Clinical evaluation recommended"
         ],
@@ -1341,14 +1329,14 @@
         ],
         "api_metadata": {
           "model_used": "amazon.titan-text-express-v1",
-          "response_time_ms": 23171.738862991333,
-          "tokens_used": 556,
+          "response_time_ms": 30621.405124664307,
+          "tokens_used": 759,
           "api_success": true
         }
       },
       "quality_validation": {
         "validation_type": "genai_quality_assurance",
-        "processing_time_ms": 0.016450881958007812,
+        "processing_time_ms": 0.022172927856445312,
         "consistency_score": 75.0,
         "medical_accuracy_score": 80.0,
         "clinical_appropriateness_score": 85.0,
@@ -1365,113 +1353,113 @@
       },
       "performance_metrics": {
         "api_response_times": [
-          18626.457691192627,
-          2704.191207885742,
-          6000.953197479248,
-          23171.738862991333
+          16128.543376922607,
+          2531.3074588775635,
+          6263.1659507751465,
+          30621.405124664307
         ],
         "token_usage_estimate": {
-          "input_tokens": 256,
+          "input_tokens": 254,
           "output_tokens": 800,
-          "total_tokens": 1056
+          "total_tokens": 1054
         },
-        "cost_estimate": 0.006333333333333333,
+        "cost_estimate": 0.006324666666666668,
         "confidence_score": 80.0,
         "cache_efficiency": 0.0
       }
     },
     {
       "analysis_metadata": {
-        "analysis_id": "GENAI-006",
-        "timestamp": "2025-08-03T08:47:54.453385",
-        "filename": "test_amd_test_1179.jpg",
-        "condition_type": "AMD",
+        "analysis_id": "GENAI-008",
+        "timestamp": "2025-08-13T03:11:45.909075",
+        "filename": "test_dme_test_1286.jpg",
+        "condition_type": "DME",
         "is_normal": false,
-        "total_processing_time_ms": 23689.21995162964,
+        "total_processing_time_ms": 34301.17464065552,
         "api_calls_made": 4,
         "version": "GenAI-v1.0",
         "simulation_mode": false
       },
       "medical_context": {
         "patient_data": {
-          "image_id": "test_amd_test_1179.jpg",
+          "image_id": "test_dme_test_1286.jpg",
           "modality": "Optical Coherence Tomography (OCT)",
-          "acquisition_date": "2025-08-03",
+          "acquisition_date": "2025-08-13",
           "clinical_indication": "Retinal pathology assessment"
         },
         "image_features": {
-          "brightness": 0.33457489276960783,
-          "contrast": 0.3739300489996811,
-          "texture_complexity": 457.98931172845465,
-          "quality_score": 0.1646497146613228,
-          "severity_score": 2.0
+          "brightness": 0.11611168057310815,
+          "contrast": 1.2209717899532373,
+          "texture_complexity": 1471.8060690687125,
+          "quality_score": 0.28835508625568107,
+          "severity_score": 10.0
         },
         "statistical_context": {
-          "brightness_percentile": 53.04999435743086,
-          "texture_complexity_percentile": 2.142421707072232,
-          "quality_compared_to_average": 0.8210114451783912,
-          "severity_compared_to_dataset": 0.2857142857142857
+          "brightness_percentile": 17.36206692230488,
+          "texture_complexity_percentile": 9.004569307028126,
+          "quality_compared_to_average": 1.2588622758785961,
+          "severity_compared_to_dataset": 1.0
         },
         "clinical_classification": {
-          "condition": "AMD",
+          "condition": "DME",
           "is_normal": false,
-          "urgency_level": "LOW - Standard follow-up appropriate",
-          "complexity_level": "MILDLY COMPLEX - Standard clinical assessment",
+          "urgency_level": "CRITICAL - Immediate intervention required",
+          "complexity_level": "HIGHLY COMPLEX - Multidisciplinary consultation recommended",
           "quality_adequacy": "POOR - Not adequate for reliable diagnosis"
         },
         "dataset_context": {
           "total_images_in_dataset": 8000,
           "condition_prevalence": 0.125,
-          "average_severity_for_condition": 2.167,
+          "average_severity_for_condition": 8.174,
           "is_normal_case": false
         }
       },
       "rapid_assessment": {
         "assessment_type": "rapid_clinical_assessment",
-        "processing_time_ms": 2448.08292388916,
+        "processing_time_ms": 2737.5261783599854,
         "primary_findings": "Analysis completed",
         "immediate_concerns": [],
-        "preliminary_diagnosis": "AMD",
-        "urgency_assessment": "LOW - Standard follow-up appropriate",
+        "preliminary_diagnosis": "DME",
+        "urgency_assessment": "CRITICAL - Immediate intervention required",
         "next_steps": [
           "Clinical correlation recommended"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-instant-v1",
-          "response_time_ms": 2448.0209350585938,
-          "tokens_used": 133,
+          "response_time_ms": 2737.4584674835205,
+          "tokens_used": 145,
           "api_success": true
         }
       },
       "comprehensive_analysis": {
         "analysis_type": "comprehensive_medical_analysis",
-        "processing_time_ms": 5634.940624237061,
-        "detailed_findings": "The OCT imaging reveals the presence of drusen deposits in the macula, indicative of age-related macular degeneration (AMD). The retinal pigment epithelium (RPE) appears irregular, and there is evidence of mild retinal thickening and distortion, suggesting early-stage neovascular changes.",
-        "pathophysiology": "AMD is a progressive, degenerative condition affecting the macula, the central part of the retina responsible for sharp, detailed vision. In this case, the formation of drusen, which are deposits of lipids and proteins, leads to disruption of the RPE and subsequent photoreceptor dysfunction. This can eventually progress to the development of choroidal neovascularization, a hallmark of the neovascular (wet) form of AMD.",
+        "processing_time_ms": 6390.583038330078,
+        "detailed_findings": "The OCT imaging reveals significant retinal thickening and intraretinal fluid accumulation consistent with advanced diabetic macular edema (DME). There is disruption of the foveal contour, loss of the normal foveal depression, and diffuse retinal edema involving the central macula. Focal areas of serous retinal detachment are also present.",
+        "pathophysiology": "DME is a complication of diabetic retinopathy, resulting from the breakdown of the blood-retinal barrier and increased vascular permeability. Chronic hyperglycemia leads to oxidative stress, inflammation, and the upregulation of vascular endothelial growth factor (VEGF), which in turn causes fluid and lipid exudation into the retinal tissue.",
         "differential_diagnosis": [
-          "- Diabetic macular edema"
+          "- Retinal vein occlusion"
         ],
-        "risk_stratification": "The patient's AMD severity score of 2.0/10 and severity percentile of 28.6% indicate a relatively mild stage of the disease. However, the presence of early neovascular changes suggests a need for close monitoring and potential intervention to prevent further progression.",
-        "prognosis": "With appropriate management and monitoring, the prognosis for this patient is generally favorable. Early detection and intervention can often slow the progression of AMD and maintain visual function, especially in the non-neovascular stage. However, the risk of progression to the neovascular form remains, and the long-term prognosis may depend on the patient's response to treatment.",
+        "risk_stratification": "The severity of the DME, as indicated by the 10/10 rating, places the patient at the highest risk of vision loss and progressive retinal damage. The condition is critical, and immediate intervention is required to prevent further vision deterioration.",
+        "prognosis": "Without prompt and effective treatment, the prognosis for this patient is guarded. The advanced stage of DME poses a significant threat to central vision and may lead to permanent visual impairment if left untreated. However, with appropriate management, the prognosis can be improved, and the risk of vision loss can be mitigated.",
         "monitoring_recommendations": [
-          "- Comprehensive eye examination",
-          "including dilated fundus evaluation",
-          "every 6-12 months"
+          "- Frequent (every 4-8 weeks) OCT imaging to monitor response to treatment and detect any changes in macular edema"
         ],
         "clinical_correlation_needs": [
           "- Review of the patient's medical history",
-          "including any underlying conditions or risk factors for AMD"
+          "including duration and control of diabetes",
+          "any prior treatment for diabetic retinopathy",
+          "and other relevant comorbidities"
         ],
         "api_metadata": {
           "model_used": "anthropic.claude-v2",
-          "response_time_ms": 5634.6917152404785,
-          "tokens_used": 500,
+          "response_time_ms": 6390.533685684204,
+          "tokens_used": 530,
           "api_success": true
         }
       },
       "treatment_recommendations": {
         "recommendation_type": "comprehensive_treatment_plan",
-        "processing_time_ms": 15603.459596633911,
+        "processing_time_ms": 25169.92211341858,
         "immediate_interventions": [
           "Clinical evaluation recommended"
         ],
@@ -1493,18 +1481,18 @@
         ],
         "api_metadata": {
           "model_used": "amazon.titan-text-express-v1",
-          "response_time_ms": 15603.419542312622,
-          "tokens_used": 344,
+          "response_time_ms": 25169.872283935547,
+          "tokens_used": 581,
           "api_success": true
         }
       },
       "quality_validation": {
         "validation_type": "genai_quality_assurance",
-        "processing_time_ms": 0.0171661376953125,
+        "processing_time_ms": 0.037670135498046875,
         "consistency_score": 75.0,
-        "medical_accuracy_score": 80.0,
-        "clinical_appropriateness_score": 85.0,
-        "overall_confidence": 80.0,
+        "medical_accuracy_score": 95.0,
+        "clinical_appropriateness_score": 75.0,
+        "overall_confidence": 81.66666666666667,
         "quality_flags": [
           "Missing immediate concerns in rapid assessment"
         ],
@@ -1517,18 +1505,18 @@
       },
       "performance_metrics": {
         "api_response_times": [
-          23171.738862991333,
-          2448.0209350585938,
-          5634.6917152404785,
-          15603.419542312622
+          30621.405124664307,
+          2737.4584674835205,
+          6390.533685684204,
+          25169.872283935547
         ],
         "token_usage_estimate": {
-          "input_tokens": 255,
+          "input_tokens": 256,
           "output_tokens": 800,
-          "total_tokens": 1055
+          "total_tokens": 1056
         },
-        "cost_estimate": 0.007036666666666667,
-        "confidence_score": 80.0,
+        "cost_estimate": 0.0070286666666666674,
+        "confidence_score": 81.66666666666667,
         "cache_efficiency": 0.0
       }
     }
@@ -1536,82 +1524,84 @@
   "comprehensive_report": {
     "report_metadata": {
       "report_type": "genai_analytics",
-      "session_start": "2025-08-03T08:43:27.985299",
-      "session_end": "2025-08-03T08:47:54.454855",
-      "session_duration_seconds": 266.469281,
-      "report_generated": "2025-08-03T08:47:54.454859",
+      "session_start": "2025-08-13T03:06:56.162889",
+      "session_end": "2025-08-13T03:11:45.911366",
+      "session_duration_seconds": 289.748137,
+      "report_generated": "2025-08-13T03:11:45.911373",
       "simulation_mode": false
     },
     "analysis_performance": {
       "total_analyses_completed": 10,
       "successful_analyses": 10,
       "failed_analyses": 0,
-      "normal_cases_analyzed": 1,
-      "disease_cases_analyzed": 9,
+      "normal_cases_analyzed": 2,
+      "disease_cases_analyzed": 8,
       "analysis_success_rate_percent": 100.0,
-      "average_confidence_score": 79.83333333333333,
-      "average_processing_time_ms": 26646.28186225891,
-      "throughput_analyses_per_minute": 2.2516666752292545
+      "average_confidence_score": 80.33333333333334,
+      "average_processing_time_ms": 28973.987984657288,
+      "throughput_analyses_per_minute": 2.0707639614607776
     },
     "api_performance": {
       "total_api_calls_made": 30,
       "successful_api_calls": 30,
       "failed_api_calls": 0,
       "api_success_rate_percent": 100.0,
-      "average_api_response_time_ms": 8881.05218410492,
+      "average_api_response_time_ms": 9656.856735547384,
       "api_calls_per_analysis": 3.0,
       "rate_limits_hit": 0,
       "cache_hit_rate_percent": 0.0
     },
     "cost_analysis": {
-      "total_estimated_cost_usd": 0.03870066666666666,
-      "cost_per_analysis_usd": 0.003870066666666666,
-      "total_input_tokens": 2555,
+      "total_estimated_cost_usd": 0.038663333333333334,
+      "cost_per_analysis_usd": 0.0038663333333333336,
+      "total_input_tokens": 2543,
       "total_output_tokens": 8000,
-      "tokens_per_analysis": 1055.5,
-      "projected_monthly_cost_usd": 37.64491262315523
+      "tokens_per_analysis": 1054.3,
+      "projected_monthly_cost_usd": 34.587059312136326
     },
     "model_performance": {
       "claude_instant": {
         "total_calls": 10,
-        "avg_response_time_ms": 2402.420949935913,
+        "avg_response_time_ms": 2397.004508972168,
         "success_rate_percent": 100.0,
         "error_count": 0
       },
       "titan_text": {
         "total_calls": 10,
-        "avg_response_time_ms": 18215.9912109375,
+        "avg_response_time_ms": 20566.523575782776,
         "success_rate_percent": 100.0,
         "error_count": 0
       }
     },
     "quality_metrics": {
       "validation_pass_rate_percent": 100.0,
-      "average_consistency_score": 76.0,
-      "average_medical_accuracy_score": 82.0,
-      "average_clinical_appropriateness_score": 81.5
+      "average_consistency_score": 75.0,
+      "average_medical_accuracy_score": 86.0,
+      "average_clinical_appropriateness_score": 80.0
     },
     "clinical_impact": {
       "conditions_analyzed": [
-        "NORMAL",
-        "CNV",
         "DME",
-        "MH",
+        "NORMAL",
+        "DR",
+        "DRUSEN",
         "CSR",
-        "AMD"
+        "AMD",
+        "CNV"
       ],
       "condition_distribution": {
-        "NORMAL": 1,
-        "CNV": 1,
         "DME": 1,
-        "MH": 1,
-        "CSR": 1,
-        "AMD": 5
+        "NORMAL": 2,
+        "DR": 1,
+        "DRUSEN": 2,
+        "CSR": 2,
+        "AMD": 1,
+        "CNV": 1
       },
-      "normal_vs_disease_ratio": 0.1111111111111111,
-      "critical_cases_identified": 0,
-      "immediate_interventions_recommended": 9,
-      "specialist_referrals_recommended": 9
+      "normal_vs_disease_ratio": 0.25,
+      "critical_cases_identified": 5,
+      "immediate_interventions_recommended": 8,
+      "specialist_referrals_recommended": 8
     },
     "error_analysis": {
       "total_errors": 0,
@@ -1619,13 +1609,11 @@
       "error_rate_percent": 0.0
     },
     "readiness_assessment": {
-      "overall_readiness_score": 93.00916546011135,
+      "overall_readiness_score": 91.64096137878133,
       "scalability_assessment": "LIMITED - Performance optimization needed for scale",
       "reliability_assessment": "EXCELLENT - 100.0% success rate (deployment ready)",
       "cost_efficiency_assessment": "EXCELLENT - $0.0039 per analysis (highly cost-effective)",
       "recommendations_for_deployment": [
-        "Refine prompts and add more clinical context for higher confidence scores",
-        "Consider fine-tuning models on domain-specific medical data",
         "Implement token usage monitoring and cost alerts",
         "Consider prompt optimization to reduce token usage",
         "Improve caching strategy to reduce API calls",
@@ -1633,7 +1621,9 @@
         "Set up automated performance testing and benchmarking",
         "Create fallback mechanisms for API failures",
         "Establish clinical validation protocols with medical experts",
-        "Implement A/B testing framework for prompt optimization"
+        "Implement A/B testing framework for prompt optimization",
+        "Set up data pipeline for continuous model improvement",
+        "Create audit trails for regulatory compliance"
       ]
     }
   },
@@ -1641,7 +1631,7 @@
     "api_calls_made": 30,
     "successful_api_calls": 30,
     "failed_api_calls": 0,
-    "total_api_response_time": 266431.5655231476,
+    "total_api_response_time": 289705.7020664215,
     "genai_insights_generated": 10,
     "medical_reports_created": 10,
     "clinical_recommendations_made": 10,
@@ -1649,9 +1639,9 @@
     "cache_hits": 0,
     "cache_misses": 10,
     "token_usage": {
-      "input_tokens": 2555,
+      "input_tokens": 2543,
       "output_tokens": 8000,
-      "total_cost_estimate": 0.03870066666666666
+      "total_cost_estimate": 0.038663333333333334
     },
     "model_performance": {
       "claude_v2": {
@@ -1662,229 +1652,229 @@
       },
       "claude_instant": {
         "calls": 10,
-        "avg_response_time": 2402.420949935913,
+        "avg_response_time": 2397.004508972168,
         "success_rate": 100.0,
         "errors": 0
       },
       "titan_text": {
         "calls": 10,
-        "avg_response_time": 18215.9912109375,
+        "avg_response_time": 20566.523575782776,
         "success_rate": 100.0,
         "errors": 0
       }
     },
     "error_types": {},
-    "session_start": "2025-08-03 08:43:27.985299"
+    "session_start": "2025-08-13 03:06:56.162889"
   },
   "api_call_history": [
     {
-      "timestamp": "2025-08-03T08:43:30.449270",
+      "timestamp": "2025-08-13T03:06:58.667008",
       "model_used": "anthropic.claude-instant-v1",
       "use_case": "rapid_clinical_assessment",
-      "response_time_ms": 2456.5834999084473,
+      "response_time_ms": 2496.579170227051,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:43:35.741905",
+      "timestamp": "2025-08-13T03:07:04.872932",
       "model_used": "anthropic.claude-3-haiku-20240307-v1:0",
       "use_case": "comprehensive_medical_analysis",
-      "response_time_ms": 5292.5097942352295,
+      "response_time_ms": 6205.776691436768,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:43:57.305270",
+      "timestamp": "2025-08-13T03:07:40.591853",
       "model_used": "amazon.titan-text-express-v1",
       "use_case": "treatment_recommendations",
-      "response_time_ms": 21563.249826431274,
+      "response_time_ms": 35718.76931190491,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:43:59.451308",
+      "timestamp": "2025-08-13T03:07:43.223289",
       "model_used": "anthropic.claude-instant-v1",
       "use_case": "rapid_clinical_assessment",
-      "response_time_ms": 2142.8592205047607,
+      "response_time_ms": 2628.1354427337646,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:44:05.554554",
+      "timestamp": "2025-08-13T03:07:49.144675",
       "model_used": "anthropic.claude-3-haiku-20240307-v1:0",
       "use_case": "comprehensive_medical_analysis",
-      "response_time_ms": 6103.116273880005,
+      "response_time_ms": 5921.232223510742,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:44:13.074059",
+      "timestamp": "2025-08-13T03:08:08.874538",
       "model_used": "amazon.titan-text-express-v1",
       "use_case": "treatment_recommendations",
-      "response_time_ms": 7519.391298294067,
+      "response_time_ms": 19729.719400405884,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:44:15.544319",
+      "timestamp": "2025-08-13T03:08:11.400670",
       "model_used": "anthropic.claude-instant-v1",
       "use_case": "rapid_clinical_assessment",
-      "response_time_ms": 2467.0393466949463,
+      "response_time_ms": 2522.693157196045,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:44:21.670552",
+      "timestamp": "2025-08-13T03:08:16.165608",
       "model_used": "anthropic.claude-3-haiku-20240307-v1:0",
       "use_case": "comprehensive_medical_analysis",
-      "response_time_ms": 6126.112699508667,
+      "response_time_ms": 4764.79959487915,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:44:41.344687",
+      "timestamp": "2025-08-13T03:08:41.499445",
       "model_used": "amazon.titan-text-express-v1",
       "use_case": "treatment_recommendations",
-      "response_time_ms": 19674.012422561646,
+      "response_time_ms": 25333.688735961914,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:44:44.321562",
+      "timestamp": "2025-08-13T03:08:44.512786",
       "model_used": "anthropic.claude-instant-v1",
       "use_case": "rapid_clinical_assessment",
-      "response_time_ms": 2973.651647567749,
+      "response_time_ms": 3009.915351867676,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:44:50.157604",
+      "timestamp": "2025-08-13T03:08:50.713059",
       "model_used": "anthropic.claude-3-haiku-20240307-v1:0",
       "use_case": "comprehensive_medical_analysis",
-      "response_time_ms": 5835.922479629517,
+      "response_time_ms": 6200.102806091309,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:45:17.701754",
+      "timestamp": "2025-08-13T03:09:07.572106",
       "model_used": "amazon.titan-text-express-v1",
       "use_case": "treatment_recommendations",
-      "response_time_ms": 27544.03328895569,
+      "response_time_ms": 16858.877658843994,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:45:19.926101",
+      "timestamp": "2025-08-13T03:09:09.185317",
       "model_used": "anthropic.claude-instant-v1",
       "use_case": "rapid_clinical_assessment",
-      "response_time_ms": 2221.3339805603027,
+      "response_time_ms": 1610.0244522094727,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:45:26.942242",
+      "timestamp": "2025-08-13T03:09:15.836967",
       "model_used": "anthropic.claude-3-haiku-20240307-v1:0",
       "use_case": "comprehensive_medical_analysis",
-      "response_time_ms": 7016.014814376831,
+      "response_time_ms": 6651.496887207031,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:45:41.281422",
+      "timestamp": "2025-08-13T03:09:22.921555",
       "model_used": "amazon.titan-text-express-v1",
       "use_case": "treatment_recommendations",
-      "response_time_ms": 14339.062452316284,
+      "response_time_ms": 7084.447622299194,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:45:43.538359",
+      "timestamp": "2025-08-13T03:09:25.347157",
       "model_used": "anthropic.claude-instant-v1",
       "use_case": "rapid_clinical_assessment",
-      "response_time_ms": 2254.6050548553467,
+      "response_time_ms": 2422.198534011841,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:45:49.925489",
+      "timestamp": "2025-08-13T03:09:30.376525",
       "model_used": "anthropic.claude-3-haiku-20240307-v1:0",
       "use_case": "comprehensive_medical_analysis",
-      "response_time_ms": 6387.0086669921875,
+      "response_time_ms": 5029.216051101685,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:46:08.421420",
+      "timestamp": "2025-08-13T03:09:49.986905",
       "model_used": "amazon.titan-text-express-v1",
       "use_case": "treatment_recommendations",
-      "response_time_ms": 18495.81503868103,
+      "response_time_ms": 19610.2397441864,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:46:10.796266",
+      "timestamp": "2025-08-13T03:09:51.617744",
       "model_used": "anthropic.claude-instant-v1",
       "use_case": "rapid_clinical_assessment",
-      "response_time_ms": 2371.748685836792,
+      "response_time_ms": 1627.539873123169,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:46:16.642650",
+      "timestamp": "2025-08-13T03:09:58.585725",
       "model_used": "anthropic.claude-3-haiku-20240307-v1:0",
       "use_case": "comprehensive_medical_analysis",
-      "response_time_ms": 5846.261262893677,
+      "response_time_ms": 6967.822074890137,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:46:32.265535",
+      "timestamp": "2025-08-13T03:10:07.995537",
       "model_used": "amazon.titan-text-express-v1",
       "use_case": "treatment_recommendations",
-      "response_time_ms": 15622.731685638428,
+      "response_time_ms": 9409.672498703003,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:46:34.252537",
+      "timestamp": "2025-08-13T03:10:10.383034",
       "model_used": "anthropic.claude-instant-v1",
       "use_case": "rapid_clinical_assessment",
-      "response_time_ms": 1984.1759204864502,
+      "response_time_ms": 2384.193181991577,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:46:40.257516",
+      "timestamp": "2025-08-13T03:10:16.059463",
       "model_used": "anthropic.claude-3-haiku-20240307-v1:0",
       "use_case": "comprehensive_medical_analysis",
-      "response_time_ms": 6004.853010177612,
+      "response_time_ms": 5676.275253295898,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:46:58.884094",
+      "timestamp": "2025-08-13T03:10:32.188151",
       "model_used": "amazon.titan-text-express-v1",
       "use_case": "treatment_recommendations",
-      "response_time_ms": 18626.457691192627,
+      "response_time_ms": 16128.543376922607,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:47:01.590793",
+      "timestamp": "2025-08-13T03:10:34.722710",
       "model_used": "anthropic.claude-instant-v1",
       "use_case": "rapid_clinical_assessment",
-      "response_time_ms": 2704.191207885742,
+      "response_time_ms": 2531.3074588775635,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:47:07.591874",
+      "timestamp": "2025-08-13T03:10:40.986033",
       "model_used": "anthropic.claude-3-haiku-20240307-v1:0",
       "use_case": "comprehensive_medical_analysis",
-      "response_time_ms": 6000.953197479248,
+      "response_time_ms": 6263.1659507751465,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:47:30.763744",
+      "timestamp": "2025-08-13T03:11:11.607581",
       "model_used": "amazon.titan-text-express-v1",
       "use_case": "treatment_recommendations",
-      "response_time_ms": 23171.738862991333,
+      "response_time_ms": 30621.405124664307,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:47:33.214703",
+      "timestamp": "2025-08-13T03:11:14.348214",
       "model_used": "anthropic.claude-instant-v1",
       "use_case": "rapid_clinical_assessment",
-      "response_time_ms": 2448.0209350585938,
+      "response_time_ms": 2737.4584674835205,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:47:38.849730",
+      "timestamp": "2025-08-13T03:11:20.738888",
       "model_used": "anthropic.claude-3-haiku-20240307-v1:0",
       "use_case": "comprehensive_medical_analysis",
-      "response_time_ms": 5634.6917152404785,
+      "response_time_ms": 6390.533685684204,
       "success": true
     },
     {
-      "timestamp": "2025-08-03T08:47:54.453266",
+      "timestamp": "2025-08-13T03:11:45.908901",
       "model_used": "amazon.titan-text-express-v1",
       "use_case": "treatment_recommendations",
-      "response_time_ms": 15603.419542312622,
+      "response_time_ms": 25169.872283935547,
       "success": true
     }
   ]

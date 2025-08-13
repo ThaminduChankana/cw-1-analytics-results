@@ -14,12 +14,12 @@
   },
   "normal_vs_disease_ratio": 0.14285714285714285,
   "normal_stats": {
-    "avg_quality_score": 0.23952052561162623,
-    "avg_severity_score": 5.334
+    "avg_quality_score": 0.27838336652355644,
+    "avg_severity_score": 0.0
   },
   "disease_stats": {
-    "avg_quality_score": 0.19497703211760745,
-    "avg_severity_score": 3.922285714285714,
+    "avg_quality_score": 0.22201388952365564,
+    "avg_severity_score": 6.470142857142857,
     "diseases_identified": [
       "DME",
       "DRUSEN",
@@ -52,8 +52,8 @@
     "brightness_category": 0,
     "contrast_category": 0,
     "quality_score": 0,
-    "texture_normalized": 0,
     "severity_score": 0,
+    "texture_normalized": 0,
     "brightness_deviation": 0,
     "processed_by": 0,
     "partition_id": 0,
@@ -61,5 +61,5 @@
     "has_disease": 0,
     "actual_disease": 1000
   },
-  "processing_timestamp": "2025-08-03T08:43:27.014968"
+  "processing_timestamp": "2025-08-13T03:06:54.522114"
 }

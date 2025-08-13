@@ -1,14 +1,14 @@
 {
   "population_type": "real_oct_image_data",
-  "population_timestamp": "2025-08-03T08:43:27.363739",
+  "population_timestamp": "2025-08-13T03:06:54.880994",
   "total_directories_populated": 6,
   "directory_status": {
-    "raw-images/": "10 files (5161.7 KB)",
-    "processed-data/": "4 files (6284.3 KB)",
-    "spark-results/": "7 files (5190.5 KB)",
-    "hive-analytics/": "6 files (2.2 KB)",
+    "raw-images/": "10 files (5326.3 KB)",
+    "processed-data/": "4 files (6283.7 KB)",
+    "spark-results/": "7 files (5189.8 KB)",
+    "hive-analytics/": "6 files (2.1 KB)",
     "models/": "2 files (0.9 KB)",
-    "results/": "2 files (1306.0 KB)"
+    "results/": "2 files (1279.5 KB)"
   },
   "upload_status": {
     "processed_data": "SUCCESS",

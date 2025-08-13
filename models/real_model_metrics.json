@@ -16,17 +16,17 @@
     "CSR"
   ],
   "feature_extraction_accuracy": 100.0,
-  "avg_image_quality_normal": 0.23952052561162623,
-  "avg_image_quality_disease": 0.19497703211760745,
+  "avg_image_quality_normal": 0.27838336652355644,
+  "avg_image_quality_disease": 0.22201388952365564,
   "severity_scoring_capability": true,
   "brightness_analysis_range": [
-    0.056001925000957416,
-    0.6306784700397295
+    0.0636682996562883,
+    0.668766461347644
   ],
   "texture_analysis_range": [
-    6.2431089988861075,
-    21377.17846195317
+    3.8767666794433593,
+    16345.102346205033
   ],
-  "real_data_processing_rate": 156.30236718690142,
-  "model_timestamp": "2025-08-03T08:43:27.050309"
+  "real_data_processing_rate": 92.83072510591651,
+  "model_timestamp": "2025-08-13T03:06:54.559771"
 }

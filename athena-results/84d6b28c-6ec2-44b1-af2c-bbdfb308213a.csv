@@ -1,0 +1,8 @@
+"brightness_category","contrast_category","image_count","avg_quality","avg_severity","diseases_present"
+"High","Low","3","0.3235","3.0","3"
+"Medium","High","108","0.3111","5.02","4"
+"Medium","Medium","221","0.311","4.81","4"
+"Low","High","2612","0.2791","6.04","7"
+"Low","Medium","2419","0.2299","6.23","8"
+"Low","Low","1747","0.1686","5.24","4"
+"Medium","Low","890","0.1678","4.14","2"

@@ -1,0 +1,8 @@
+{"disease_type":"NORMAL","is_pathological":false,"urgency_level":"Routine","typical_brightness_range":"0.4-0.7","common_features":"Clear retinal layers, no abnormalities"}
+{"disease_type":"AMD","is_pathological":true,"urgency_level":"Urgent","typical_brightness_range":"0.2-0.5","common_features":"Drusen deposits, RPE changes"}
+{"disease_type":"CNV","is_pathological":true,"urgency_level":"Emergency","typical_brightness_range":"0.1-0.4","common_features":"Choroidal neovascularization"}
+{"disease_type":"DME","is_pathological":true,"urgency_level":"Urgent","typical_brightness_range":"0.2-0.6","common_features":"Macular edema, fluid accumulation"}
+{"disease_type":"DRUSEN","is_pathological":true,"urgency_level":"Moderate","typical_brightness_range":"0.3-0.6","common_features":"Retinal deposits"}
+{"disease_type":"CSR","is_pathological":true,"urgency_level":"Moderate","typical_brightness_range":"0.3-0.7","common_features":"Central serous retinopathy"}
+{"disease_type":"MH","is_pathological":true,"urgency_level":"Urgent","typical_brightness_range":"0.2-0.5","common_features":"Macular hole formation"}
+{"disease_type":"DR","is_pathological":true,"urgency_level":"Urgent","typical_brightness_range":"0.2-0.6","common_features":"Diabetic retinopathy changes"}

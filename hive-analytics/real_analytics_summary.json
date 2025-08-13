@@ -12,10 +12,10 @@
     "CSR"
   ],
   "queries_executed": 5,
-  "high_risk_cases": 3267,
-  "avg_image_quality": 0.2005375,
+  "high_risk_cases": 5647,
+  "avg_image_quality": 0.2290625,
   "processing_workers": 4,
-  "analysis_timestamp": "2025-08-03T08:43:21.711142",
+  "analysis_timestamp": "2025-08-13T03:06:46.896706",
   "processing_mode": "athena",
   "comprehensive_analysis": true
 }

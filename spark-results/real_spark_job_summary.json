@@ -1,9 +1,9 @@
 {
-  "job_id": "real_spark_job_20250803_084238",
+  "job_id": "real_spark_job_20250813_030556",
   "dataset_type": "real_oct_images",
   "total_images_processed": 8000,
   "partitions_created": 4,
-  "total_processing_time": 51.18284606933594,
+  "total_processing_time": 86.17836380004883,
   "disease_types_processed": [
     "DME",
     "NORMAL",
@@ -19,6 +19,6 @@
     "severity_score",
     "brightness_deviation"
   ],
-  "avg_quality_score": 0.2005449688043598,
+  "avg_quality_score": 0.2290600741486433,
   "spark_version": "3.4.1"
 }

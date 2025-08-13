@@ -30,10 +30,10 @@
   "key_findings": {
     "total_diseases": 7,
     "normal_vs_disease_ratio": 0.14285714285714285,
-    "avg_quality_score_normal": 0.23952052561162623,
-    "avg_quality_score_disease": 0.19497703211760745,
-    "high_risk_cases": 2434,
-    "processing_rate": "156.30 images/second"
+    "avg_quality_score_normal": 0.27838336652355644,
+    "avg_quality_score_disease": 0.22201388952365564,
+    "high_risk_cases": 5647,
+    "processing_rate": "92.83 images/second"
   },
   "deliverables": {
     "raw_features": "raw-images/real_oct_features.jsonl",
@@ -42,5 +42,5 @@
     "visualizations": "results/real_oct_analytics_dashboard.png",
     "model_metrics": "models/real_model_metrics.json"
   },
-  "completion_timestamp": "2025-08-03T08:43:27.225942"
+  "completion_timestamp": "2025-08-13T03:06:54.732879"
 }

@@ -1,0 +1,5 @@
+"worker_node","images_processed","avg_quality_achieved","diseases_handled","avg_complexity_processed"
+"spark-worker-2","2000","0.2297","8","843.73"
+"spark-worker-1","2000","0.229","8","847.5"
+"spark-worker-4","2000","0.2285","8","817.04"
+"spark-worker-3","2000","0.229","8","839.66"
